@@ -38,6 +38,10 @@ namespace Book_Haven.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
 
@@ -161,15 +165,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d7f2f8d5-64d5-430e-a064-26b19e6dcc64",
+                            ConcurrencyStamp = "d6e33afa-d885-4ca5-be67-fd96e3257938",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKxxdZDv7ZQzpTOwEen3bFJdqir9ffoIso8fzFEJ79PUlE/uv0/O7C/9dcRZwOeF1A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELU9tQDNHKJrNAIjiSDyLmH3TW9A1cmgSD8F7zLY4ufWxS56OJ7sz0apvJLdPWx35g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "25b1e54b-ec2f-41a4-ad97-8f19c9eb6892",
+                            SecurityStamp = "7a4fb9dc-fe6b-4235-93e1-195043061745",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });

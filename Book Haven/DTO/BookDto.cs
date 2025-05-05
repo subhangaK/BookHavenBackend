@@ -20,5 +20,6 @@ namespace Book_Haven.DTO
         [Required]
         [Range(1000, 9999, ErrorMessage = "Publication year must be a valid year.")]
         public int PublicationYear { get; set; }
+        public IFormFile Image { get; set; }
     }
 }

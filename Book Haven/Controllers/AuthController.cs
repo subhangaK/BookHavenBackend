@@ -15,15 +15,18 @@ namespace Book_Haven.Controllers
         private readonly UserManager<User> _userManager;
         private readonly ITokenService _tokenService;
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _environment;
 
         public AuthController(
             UserManager<User> userManager,
             ITokenService tokenService,
-            ApplicationDbContext context)
+            ApplicationDbContext context,
+            IWebHostEnvironment environment)
         {
             _userManager = userManager;
             _tokenService = tokenService;
             _context = context;
+            _environment = environment;
         }
 
         [HttpPost("register")]
@@ -71,7 +74,8 @@ namespace Book_Haven.Controllers
 
         [HttpPost("books")]
         [Authorize(Roles = "SuperAdmin")]
-        public async Task<IActionResult> AddBook(BookDto bookDto)
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> AddBook([FromForm] BookDto bookDto)
         {
             var book = new Book
             {
@@ -81,6 +85,25 @@ namespace Book_Haven.Controllers
                 Price = bookDto.Price,
                 PublicationYear = bookDto.PublicationYear
             };
+
+            if (bookDto.Image != null && bookDto.Image.Length > 0)
+            {
+                var uploadsFolder = Path.Combine(_environment.WebRootPath, "images");
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(bookDto.Image.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await bookDto.Image.CopyToAsync(stream);
+                }
+
+                book.ImagePath = $"/images/{fileName}";
+            }
 
             _context.Books.Add(book);
             await _context.SaveChangesAsync();
@@ -97,6 +120,14 @@ namespace Book_Haven.Controllers
                 return NotFound();
             }
             return Ok(book);
+        }
+
+        // New method to get all books (publicly accessible)
+        [HttpGet("books")]
+        public async Task<IActionResult> GetAllBooks()
+        {
+            var books = await _context.Books.ToListAsync();
+            return Ok(books);
         }
     }
 }

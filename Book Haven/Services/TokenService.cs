@@ -26,7 +26,6 @@ namespace Book_Haven.Services
                 new(ClaimTypes.Name, user.UserName)
             };
 
-            // Add roles to claims
             foreach (var role in roles)
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));

@@ -16,6 +16,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(p => p.UseNpgsql(builder.Con
 builder.Services.AddIdentity<User, Roles>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    });
+});
+
+
 
 // Configure JWT Authentication
 builder.Services.AddAuthentication(options =>
@@ -87,9 +96,11 @@ app.UseCors("AllowFrontend");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.UseCors("AllowAll");
+app.UseStaticFiles();
 
 // Force HTTP in development
 app.Urls.Clear();
-app.Urls.Add("http://localhost:7189");
+app.Urls.Add("https://localhost:7189");
 
 app.Run();
