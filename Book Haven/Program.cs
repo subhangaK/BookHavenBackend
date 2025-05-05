@@ -16,6 +16,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(p => p.UseNpgsql(builder.Con
 builder.Services.AddIdentity<User, Roles>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    });
+});
+
+
 
 // Configure JWT Authentication
 builder.Services.AddAuthentication(options =>
@@ -45,10 +54,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseAuthentication(); // Ensure this is before UseAuthorization
 app.UseAuthorization();
 app.MapControllers();
+app.UseCors("AllowAll");
 
 app.Run();

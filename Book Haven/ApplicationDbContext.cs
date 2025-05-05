@@ -11,13 +11,12 @@ namespace Book_Haven
         {
         }
 
-        public DbSet<Book> Books { get; set; } // Add Books DbSet
+        public DbSet<Book> Books { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            // Seed Role
             builder.Entity<Roles>().HasData(
                 new Roles
                 {
@@ -27,7 +26,6 @@ namespace Book_Haven
                 }
             );
 
-            // Seed User
             var superAdmin = new User
             {
                 Id = 1,
@@ -45,7 +43,6 @@ namespace Book_Haven
 
             builder.Entity<User>().HasData(superAdmin);
 
-            // Seed UserRole
             builder.Entity<IdentityUserRole<long>>().HasData(
                 new IdentityUserRole<long>
                 {
