@@ -235,3 +235,4 @@ C:\Users\LENOVO\Documents\Application Development Group\Backend\Book Haven\obj\D
 C:\Users\LENOVO\Documents\Application Development Group\Backend\Book Haven\obj\Debug\net8.0\Book Haven.pdb
 C:\Users\LENOVO\Documents\Application Development Group\Backend\Book Haven\obj\Debug\net8.0\Book Haven.genruntimeconfig.cache
 C:\Users\LENOVO\Documents\Application Development Group\Backend\Book Haven\obj\Debug\net8.0\ref\Book Haven.dll
+C:\Users\LENOVO\Documents\Application Development Group\Backend\Book Haven\bin\Debug\net8.0\Book Haven.staticwebassets.runtime.json

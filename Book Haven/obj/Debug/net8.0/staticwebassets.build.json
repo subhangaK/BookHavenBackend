@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "5t7s4OpTpRqidFzoavjdFMKngnhsc5GFKQIDEcLfKYo=",
+  "Hash": "GCsyqxStfk5gdXgliWsqm8XbvcbEVOOGk6bVAHozjak=",
   "Source": "Book Haven",
   "BasePath": "_content/Book Haven",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Book Haven\\wwwroot",
+      "Source": "Book Haven",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg"
+    }
+  ]
 }
