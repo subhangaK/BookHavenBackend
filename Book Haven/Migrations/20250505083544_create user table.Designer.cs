@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250504071918_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250505083544_create user table")]
+    partial class createusertable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -57,8 +57,8 @@ namespace Book_Haven.Migrations
                         new
                         {
                             Id = 1L,
-                            Name = "User",
-                            NormalizedName = "USER"
+                            Name = "SuperAdmin",
+                            NormalizedName = "SUPERADMIN"
                         });
                 });
 
@@ -133,17 +133,17 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "03c0f811-6ca4-4dd7-8c66-c3d6a2b4b175",
-                            Email = "user@example.com",
+                            ConcurrencyStamp = "0e5311a3-5d5e-4a02-9e83-40f4fea0e0e1",
+                            Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "USER@EXAMPLE.COM",
-                            NormalizedUserName = "DEFAULTUSER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEbw0uABaJPRdBFYjmmsH7Qtw31JfTJxt4b/GmySR1t5reK3S5jIfgNJSD4zFw5V1g==",
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAIAAYagAAAAECguVTZ6+MvsbsbrhNIKVeky8t+s3s8wWy/81CeeaNDHufvHHA57VD2lzSKXHLCYXg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a5605cfc-44c3-4671-91f5-39dfc8dd07da",
+                            SecurityStamp = "9d8e94ca-8a61-48b0-88ed-1ebae788b9c2",
                             TwoFactorEnabled = false,
-                            UserName = "defaultuser"
+                            UserName = "admin"
                         });
                 });
 

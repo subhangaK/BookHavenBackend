@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class createusertable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -162,12 +162,12 @@ namespace Book_Haven.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { 1L, null, "User", "USER" });
+                values: new object[] { 1L, null, "SuperAdmin", "SUPERADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1L, 0, "03c0f811-6ca4-4dd7-8c66-c3d6a2b4b175", "user@example.com", true, false, null, "USER@EXAMPLE.COM", "DEFAULTUSER", "AQAAAAIAAYagAAAAEEbw0uABaJPRdBFYjmmsH7Qtw31JfTJxt4b/GmySR1t5reK3S5jIfgNJSD4zFw5V1g==", null, false, "a5605cfc-44c3-4671-91f5-39dfc8dd07da", false, "defaultuser" });
+                values: new object[] { 1L, 0, "0e5311a3-5d5e-4a02-9e83-40f4fea0e0e1", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAECguVTZ6+MvsbsbrhNIKVeky8t+s3s8wWy/81CeeaNDHufvHHA57VD2lzSKXHLCYXg==", null, false, "9d8e94ca-8a61-48b0-88ed-1ebae788b9c2", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",

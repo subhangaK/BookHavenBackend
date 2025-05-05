@@ -1,0 +1,76 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Mono
+mono_crash.*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+!**/packages/build/
+!**/packages/repositories.config
+
+# Logs and caches
+*.log
+*.vsidx
+*.cache
+*.bak
+
+# Database
+*.dbmdl
+*.mdf
+*.ldf
+*.ndf
+*.dbproj.schemaview
+
+# Local history
+.history/
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Installer
+*.msi
+*.msm
+*.msp
+
+# Publish folder
+publish/
+
+# Configuration files - do not commit secrets!
+appsettings.json
+appsettings.*.json
+secrets.json
