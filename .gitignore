@@ -74,3 +74,4 @@ publish/
 appsettings.json
 appsettings.*.json
 secrets.json
+
