@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Book_Haven.Entities;
-using Microsoft.AspNetCore.Identity;
 
 namespace Book_Haven
 {
@@ -10,6 +10,8 @@ namespace Book_Haven
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
+
+        public DbSet<Book> Books { get; set; } // Add Books DbSet
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -20,28 +22,28 @@ namespace Book_Haven
                 new Roles
                 {
                     Id = 1,
-                    Name = "User",
-                    NormalizedName = "USER"
+                    Name = "SuperAdmin",
+                    NormalizedName = "SUPERADMIN"
                 }
             );
 
             // Seed User
-            var defaultUser = new User
+            var superAdmin = new User
             {
                 Id = 1,
-                UserName = "defaultuser",
-                NormalizedUserName = "DEFAULTUSER",
-                Email = "user@example.com",
-                NormalizedEmail = "USER@EXAMPLE.COM",
+                UserName = "admin",
+                NormalizedUserName = "ADMIN",
+                Email = "admin@gmail.com",
+                NormalizedEmail = "ADMIN@GMAIL.COM",
                 EmailConfirmed = true,
                 SecurityStamp = Guid.NewGuid().ToString(),
                 ConcurrencyStamp = Guid.NewGuid().ToString()
             };
 
-            defaultUser.PasswordHash = new PasswordHasher<User>()
-                .HashPassword(defaultUser, "Password123");
+            superAdmin.PasswordHash = new PasswordHasher<User>()
+                .HashPassword(superAdmin, "Test@123");
 
-            builder.Entity<User>().HasData(defaultUser);
+            builder.Entity<User>().HasData(superAdmin);
 
             // Seed UserRole
             builder.Entity<IdentityUserRole<long>>().HasData(

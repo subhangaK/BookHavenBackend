@@ -15,8 +15,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(p => p.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddIdentity<User, Roles>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
-// Add TokenService
 builder.Services.AddScoped<ITokenService, TokenService>();
 
 // Configure JWT Authentication
@@ -49,7 +47,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
+app.UseAuthentication(); // Ensure this is before UseAuthorization
 app.UseAuthorization();
 app.MapControllers();
 
