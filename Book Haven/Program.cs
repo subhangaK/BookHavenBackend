@@ -37,6 +37,17 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+// Add CORS with simplified configuration
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", builder =>
+    {
+        builder.WithOrigins("http://localhost:5173", "http://127.0.0.1:5173")
+               .AllowAnyMethod() // Explicitly allow OPTIONS
+               .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
@@ -46,9 +57,39 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-app.UseAuthentication(); // Ensure this is before UseAuthorization
+// Log incoming requests
+app.Use(async (context, next) =>
+{
+    Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
+    await next.Invoke();
+    Console.WriteLine($"Response: {context.Response.StatusCode}");
+});
+
+// Explicitly handle OPTIONS requests for CORS preflight
+app.Use(async (context, next) =>
+{
+    if (context.Request.Method == "OPTIONS")
+    {
+        Console.WriteLine("Handling OPTIONS request");
+        string[] allowedOrigins = { "http://localhost:5173" };
+        string[] allowedMethods = { "GET", "POST", "PUT", "DELETE", "OPTIONS" };
+        string[] allowedHeaders = { "Content-Type" };
+        context.Response.Headers.Add("Access-Control-Allow-Origin", allowedOrigins);
+        context.Response.Headers.Add("Access-Control-Allow-Methods", allowedMethods);
+        context.Response.Headers.Add("Access-Control-Allow-Headers", allowedHeaders);
+        context.Response.StatusCode = 200;
+        return;
+    }
+    await next();
+});
+
+app.UseCors("AllowFrontend");
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+// Force HTTP in development
+app.Urls.Clear();
+app.Urls.Add("http://localhost:7189");
 
 app.Run();

@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class AddBooksTable : Migration
+    public partial class CreateDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -33,7 +33,7 @@ namespace Book_Haven.Migrations
                 keyColumn: "Id",
                 keyValue: 1L,
                 columns: new[] { "ConcurrencyStamp", "PasswordHash", "SecurityStamp" },
-                values: new object[] { "52f683dd-fc2d-4ca5-9b2e-921414402555", "AQAAAAIAAYagAAAAEBW8Q/Ud4PbLJW1LPdwR2IcgKz6HOyIShY0v6VAC9Fdidp28lidvrqBYP/nHpU43JA==", "b1a7064f-4ac2-4f3b-b182-d8fe6adf8b14" });
+                values: new object[] { "d7f2f8d5-64d5-430e-a064-26b19e6dcc64", "AQAAAAIAAYagAAAAEKxxdZDv7ZQzpTOwEen3bFJdqir9ffoIso8fzFEJ79PUlE/uv0/O7C/9dcRZwOeF1A==", "25b1e54b-ec2f-41a4-ad97-8f19c9eb6892" });
         }
 
         /// <inheritdoc />

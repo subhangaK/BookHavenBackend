@@ -29,25 +29,36 @@ namespace Book_Haven.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDto registerDto)
         {
+            Console.WriteLine($"Received registration request: {registerDto.Username}, {registerDto.Email}");
+            if (registerDto.Password != registerDto.ConfirmPassword)
+            {
+                return BadRequest(new { errors = new[] { new { description = "Passwords do not match" } } });
+            }
+
             var user = new User { UserName = registerDto.Username, Email = registerDto.Email };
             var result = await _userManager.CreateAsync(user, registerDto.Password);
             if (result.Succeeded)
             {
+                Console.WriteLine("User registered successfully");
                 return Ok("User registered successfully");
             }
+            Console.WriteLine("Registration failed: " + string.Join(", ", result.Errors.Select(e => e.Description)));
             return BadRequest(result.Errors);
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDto loginDto)
         {
+            Console.WriteLine($"Received login request for email: {loginDto.Email}");
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
             if (user != null && await _userManager.CheckPasswordAsync(user, loginDto.Password))
             {
                 var roles = await _userManager.GetRolesAsync(user); // Fetch roles
-                var token = _tokenService.GenerateToken(user, roles); // Pass roles
+                var token = _tokenService.GenerateToken(user, roles); // Generate token with roles
+                Console.WriteLine("Login successful, token generated");
                 return Ok(new { token });
             }
+            Console.WriteLine("Login failed: Invalid credentials");
             return Unauthorized();
         }
 
