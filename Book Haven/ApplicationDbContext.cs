@@ -15,6 +15,10 @@ namespace Book_Haven
 
         public DbSet<Wishlist> Wishlists { get; set; }
 
+        public DbSet<Cart> Carts { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -35,6 +39,42 @@ namespace Book_Haven
             // Add unique index to prevent duplicate wishlist entries
             builder.Entity<Wishlist>()
                 .HasIndex(w => new { w.UserId, w.BookId })
+                .IsUnique();
+
+            // Configure Cart relationships
+            builder.Entity<Cart>()
+                .HasOne(c => c.User)
+                .WithMany()
+                .HasForeignKey(c => c.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<Cart>()
+                .HasOne(c => c.Book)
+                .WithMany()
+                .HasForeignKey(c => c.BookId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Add unique index to prevent duplicate cart entries
+            builder.Entity<Cart>()
+                .HasIndex(c => new { c.UserId, c.BookId })
+                .IsUnique();
+
+            // Configure Order relationships
+            builder.Entity<Order>()
+                .HasOne(o => o.User)
+                .WithMany()
+                .HasForeignKey(o => o.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<Order>()
+                .HasOne(o => o.Book)
+                .WithMany()
+                .HasForeignKey(o => o.BookId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Add unique index to prevent duplicate order entries
+            builder.Entity<Order>()
+                .HasIndex(o => new { o.UserId, o.BookId })
                 .IsUnique();
 
             builder.Entity<Roles>().HasData(
