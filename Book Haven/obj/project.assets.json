@@ -3201,23 +3201,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OMEN\\.nuget\\packages\\": {},
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OMEN\\Documents\\islington\\Backend Book\\Book Haven\\Book Haven.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Book Haven.csproj",
       "projectName": "Book Haven",
-      "projectPath": "C:\\Users\\OMEN\\Documents\\islington\\Backend Book\\Book Haven\\Book Haven.csproj",
-      "packagesPath": "C:\\Users\\OMEN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OMEN\\Documents\\islington\\Backend Book\\Book Haven\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Book Haven.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -16,15 +16,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(p => p.UseNpgsql(builder.Con
 builder.Services.AddIdentity<User, Roles>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+
+// Configure CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
+    options.AddPolicy("AllowFrontend", builder =>
     {
-        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+        builder.WithOrigins("http://localhost:5173", "http://127.0.0.1:5173")
+               .AllowAnyMethod() // Includes OPTIONS for preflight
+               .WithHeaders("Authorization", "Content-Type") // Explicitly allow Authorization
+               .AllowCredentials(); // Allow credentials (e.g., JWT token)
     });
 });
-
-
 
 // Configure JWT Authentication
 builder.Services.AddAuthentication(options =>
@@ -46,17 +49,6 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Add CORS with simplified configuration
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowFrontend", builder =>
-    {
-        builder.WithOrigins("http://localhost:5173", "http://127.0.0.1:5173")
-               .AllowAnyMethod() // Explicitly allow OPTIONS
-               .AllowAnyHeader();
-    });
-});
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
@@ -74,32 +66,16 @@ app.Use(async (context, next) =>
     Console.WriteLine($"Response: {context.Response.StatusCode}");
 });
 
-// Explicitly handle OPTIONS requests for CORS preflight
-app.Use(async (context, next) =>
-{
-    if (context.Request.Method == "OPTIONS")
-    {
-        Console.WriteLine("Handling OPTIONS request");
-        string[] allowedOrigins = { "http://localhost:5173" };
-        string[] allowedMethods = { "GET", "POST", "PUT", "DELETE", "OPTIONS" };
-        string[] allowedHeaders = { "Content-Type" };
-        context.Response.Headers.Add("Access-Control-Allow-Origin", allowedOrigins);
-        context.Response.Headers.Add("Access-Control-Allow-Methods", allowedMethods);
-        context.Response.Headers.Add("Access-Control-Allow-Headers", allowedHeaders);
-        context.Response.StatusCode = 200;
-        return;
-    }
-    await next();
-});
-
+// Apply CORS before authentication and authorization
 app.UseCors("AllowFrontend");
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Map controllers
 app.MapControllers();
-app.UseCors("AllowAll");
 app.UseStaticFiles();
 
-// Force HTTP in development
+// Force HTTPS in development
 app.Urls.Clear();
 app.Urls.Add("https://localhost:7189");
 
