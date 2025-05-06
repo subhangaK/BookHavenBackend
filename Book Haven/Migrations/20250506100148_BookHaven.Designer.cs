@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250505171657_database")]
-    partial class database
+    [Migration("20250506100148_BookHaven")]
+    partial class BookHaven
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -168,15 +168,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d6e33afa-d885-4ca5-be67-fd96e3257938",
+                            ConcurrencyStamp = "a46d58a6-1e4f-43d8-a158-fdbc52270d12",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAELU9tQDNHKJrNAIjiSDyLmH3TW9A1cmgSD8F7zLY4ufWxS56OJ7sz0apvJLdPWx35g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIASxSJH73AgnDAHwNJQNVNnGUNRQJYewjX5xjQ0DxodaU1Ob9nfcTen2A/t20rKHQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7a4fb9dc-fe6b-4235-93e1-195043061745",
+                            SecurityStamp = "32a24b6b-9b77-4010-95e8-3d684adb0209",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
