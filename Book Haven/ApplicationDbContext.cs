@@ -13,9 +13,29 @@ namespace Book_Haven
 
         public DbSet<Book> Books { get; set; }
 
+        public DbSet<Wishlist> Wishlists { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            // Configure Wishlist relationships
+            builder.Entity<Wishlist>()
+                .HasOne(w => w.User)
+                .WithMany()
+                .HasForeignKey(w => w.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<Wishlist>()
+                .HasOne(w => w.Book)
+                .WithMany()
+                .HasForeignKey(w => w.BookId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Add unique index to prevent duplicate wishlist entries
+            builder.Entity<Wishlist>()
+                .HasIndex(w => new { w.UserId, w.BookId })
+                .IsUnique();
 
             builder.Entity<Roles>().HasData(
                 new Roles

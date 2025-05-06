@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class database : Migration
+    public partial class BookHaven : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -185,7 +185,7 @@ namespace Book_Haven.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1L, 0, "d6e33afa-d885-4ca5-be67-fd96e3257938", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAELU9tQDNHKJrNAIjiSDyLmH3TW9A1cmgSD8F7zLY4ufWxS56OJ7sz0apvJLdPWx35g==", null, false, "7a4fb9dc-fe6b-4235-93e1-195043061745", false, "admin" });
+                values: new object[] { 1L, 0, "a46d58a6-1e4f-43d8-a158-fdbc52270d12", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEIASxSJH73AgnDAHwNJQNVNnGUNRQJYewjX5xjQ0DxodaU1Ob9nfcTen2A/t20rKHQ==", null, false, "32a24b6b-9b77-4010-95e8-3d684adb0209", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
