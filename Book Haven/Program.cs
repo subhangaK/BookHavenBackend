@@ -16,15 +16,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(p => p.UseNpgsql(builder.Con
 builder.Services.AddIdentity<User, Roles>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+
+// Configure CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
+    options.AddPolicy("AllowFrontend", builder =>
     {
-        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+        builder.WithOrigins("http://localhost:5173", "http://127.0.0.1:5173")
+               .AllowAnyMethod() // Includes OPTIONS for preflight
+               .WithHeaders("Authorization", "Content-Type") // Explicitly allow Authorization
+               .AllowCredentials(); // Allow credentials (e.g., JWT token)
     });
 });
-
-
 
 // Configure JWT Authentication
 builder.Services.AddAuthentication(options =>
@@ -54,11 +57,26 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseStaticFiles();
-app.UseHttpsRedirection();
-app.UseAuthentication(); // Ensure this is before UseAuthorization
+
+// Log incoming requests
+app.Use(async (context, next) =>
+{
+    Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
+    await next.Invoke();
+    Console.WriteLine($"Response: {context.Response.StatusCode}");
+});
+
+// Apply CORS before authentication and authorization
+app.UseCors("AllowFrontend");
+app.UseAuthentication();
 app.UseAuthorization();
+
+// Map controllers
 app.MapControllers();
-app.UseCors("AllowAll");
+app.UseStaticFiles();
+
+// Force HTTPS in development
+app.Urls.Clear();
+app.Urls.Add("https://localhost:7189");
 
 app.Run();
