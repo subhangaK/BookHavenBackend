@@ -118,6 +118,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseStaticFiles();
 
 var urls = builder.Configuration.GetValue<string>("ApplicationUrls") ?? "https://localhost:7189";
 app.Urls.Add(urls);
