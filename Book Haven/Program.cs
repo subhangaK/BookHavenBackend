@@ -5,7 +5,6 @@ using System.Text;
 using Book_Haven;
 using Book_Haven.Entities;
 using Book_Haven.Services;
-using Microsoft.AspNetCore.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,23 +16,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(p => p.UseNpgsql(builder.Con
 builder.Services.AddIdentity<User, Roles>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<ITokenService, TokenService>();
-builder.Services.AddLogging(logging =>
-{
-    logging.AddConsole();
-    logging.AddDebug();
-});
 
 // Configure CORS
-var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>()
-                    ?? new[] { "http://localhost:5173", "http://127.0.0.1:5173" };
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", builder =>
     {
-        builder.WithOrigins(allowedOrigins)
-               .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowCredentials();
+        builder.WithOrigins("http://localhost:5173", "http://127.0.0.1:5173")
+               .AllowAnyMethod() // Includes OPTIONS for preflight
+               .WithHeaders("Authorization", "Content-Type") // Explicitly allow Authorization
+               .AllowCredentials(); // Allow credentials (e.g., JWT token)
     });
 });
 
@@ -57,69 +49,34 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Rest of the Program.cs remains unchanged
 var app = builder.Build();
-
-// Apply migrations
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    dbContext.Database.Migrate();
-}
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.UseExceptionHandler(errorApp =>
-    {
-        errorApp.Run(async context =>
-        {
-            context.Response.StatusCode = 500;
-            context.Response.ContentType = "application/json";
-            var exception = context.Features.Get<IExceptionHandlerFeature>()?.Error;
-            var response = new
-            {
-                error = exception?.Message,
-                stackTrace = exception?.StackTrace,
-                innerException = exception?.InnerException?.Message
-            };
-            var logger = context.RequestServices.GetRequiredService<ILogger<Program>>();
-            logger.LogError(exception, "An unhandled exception occurred");
-            await context.Response.WriteAsJsonAsync(response);
-        });
-    });
-}
-else
-{
-    app.UseExceptionHandler(errorApp =>
-    {
-        errorApp.Run(async context =>
-        {
-            context.Response.StatusCode = 500;
-            context.Response.ContentType = "application/json";
-            await context.Response.WriteAsJsonAsync(new { error = "An unexpected error occurred" });
-        });
-    });
 }
 
 // Log incoming requests
 app.Use(async (context, next) =>
 {
-    var logger = context.RequestServices.GetRequiredService<ILogger<Program>>();
-    logger.LogInformation("Request: {Method} {Path}", context.Request.Method, context.Request.Path);
+    Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
     await next.Invoke();
-    logger.LogInformation("Response: {StatusCode}", context.Response.StatusCode);
+    Console.WriteLine($"Response: {context.Response.StatusCode}");
 });
 
+// Apply CORS before authentication and authorization
 app.UseCors("AllowFrontend");
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Map controllers
 app.MapControllers();
+app.UseStaticFiles();
 
-var urls = builder.Configuration.GetValue<string>("ApplicationUrls") ?? "https://localhost:7189";
-app.Urls.Add(urls);
+// Force HTTPS in development
+app.Urls.Clear();
+app.Urls.Add("https://localhost:7189");
 
 app.Run();

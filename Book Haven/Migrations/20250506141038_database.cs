@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class Wishlist : Migration
+    public partial class database : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -44,7 +44,7 @@ namespace Book_Haven.Migrations
                 keyColumn: "Id",
                 keyValue: 1L,
                 columns: new[] { "ConcurrencyStamp", "PasswordHash", "SecurityStamp" },
-                values: new object[] { "a3142e48-3b9a-44bd-9eaa-f7ca42d97d0c", "AQAAAAIAAYagAAAAEHr08nWtVwX9k4chS3NMQQdhy0J0RqTI2MYbJsoCQO2j6EozDGMgsOEEmpoKdJQNnQ==", "4464d4b3-732a-4ba9-b842-7eaa9133459a" });
+                values: new object[] { "b88fc480-21c9-4388-a133-673a8a2d1300", "AQAAAAIAAYagAAAAELFzK4oRWRyH7jnGrbGnYuWPANms2rLCegSFy+VahvNEIzWn91lMQv4xSKo1DN4ILw==", "824b7b2b-108a-4bc0-a5bf-9bafcae8574c" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Wishlists_BookId",
