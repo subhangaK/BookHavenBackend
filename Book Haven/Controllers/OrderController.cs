@@ -7,12 +7,13 @@ using System;
 using System.Threading.Tasks;
 using Book_Haven.Services;
 using Microsoft.Extensions.Logging;
+using System.Linq;
 
 namespace Book_Haven.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize] // Only authenticated users can access this controller
+    [Authorize]
     public class OrderController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -26,7 +27,6 @@ namespace Book_Haven.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        // Add book to order with discount calculation
         [HttpPost("add")]
         public async Task<IActionResult> AddToOrder([FromBody] AddOrderDto dto)
         {
@@ -75,7 +75,8 @@ namespace Book_Haven.Controllers
                 BookId = dto.BookId,
                 DateAdded = DateTime.UtcNow,
                 ClaimCode = claimCode,
-                DiscountPercentage = 0m
+                DiscountPercentage = 0m,
+                IsPurchased = false
             };
 
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -130,7 +131,6 @@ namespace Book_Haven.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to send email to {Email}. SMTP error: {ErrorMessage}", user.Email, ex.Message);
-                // Continue with success response even if email fails, as order is saved
             }
 
             return Ok(new
@@ -144,7 +144,71 @@ namespace Book_Haven.Controllers
             });
         }
 
-        // Remove book from order
+        [HttpPost("approve")]
+        [Authorize(Roles = "Admin,SuperAdmin")]
+        public async Task<IActionResult> ApproveOrder([FromBody] ApproveOrderDto dto)
+        {
+            if (string.IsNullOrEmpty(dto.ClaimCode))
+            {
+                _logger.LogWarning("Invalid claim code provided");
+                return BadRequest("Claim code is required");
+            }
+
+            var order = await _context.Orders
+                .Include(o => o.Book)
+                .Include(o => o.User)
+                .FirstOrDefaultAsync(o => o.ClaimCode == dto.ClaimCode);
+            if (order == null)
+            {
+                _logger.LogWarning("Order not found for claim code: {ClaimCode}", dto.ClaimCode);
+                return NotFound("Order not found");
+            }
+
+            if (order.IsPurchased)
+            {
+                _logger.LogWarning("Order already purchased for claim code: {ClaimCode}", dto.ClaimCode);
+                return BadRequest("Order already marked as purchased");
+            }
+
+            try
+            {
+                order.IsPurchased = true;
+                await _context.SaveChangesAsync();
+                _logger.LogInformation("Order approved for claim code: {ClaimCode}", dto.ClaimCode);
+
+                var billDetails = $@"<h2>Order Approved - Book Haven</h2>
+                    <p><strong>Claim Code:</strong> {order.ClaimCode}</p>
+                    <p><strong>Book:</strong> {order.Book?.Title ?? "Unknown"}</p>
+                    <p><strong>Author:</strong> {order.Book?.Author ?? "Unknown"}</p>
+                    <p><strong>Price:</strong> ${order.Book?.Price:F2}</p>
+                    <p><strong>Discount:</strong> {order.DiscountPercentage * 100:F0}%</p>
+                    <p><strong>Final Price:</strong> ${(order.Book?.Price * (1 - order.DiscountPercentage)):F2}</p>
+                    <p><strong>Date Approved:</strong> {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss}</p>
+                    <p>Your order has been successfully approved. Thank you for shopping with Book Haven!</p>";
+
+                try
+                {
+                    await _emailService.SendEmailAsync(
+                        order.User?.Email ?? "unknown@example.com",
+                        "Your Book Haven Order Has Been Approved",
+                        billDetails
+                    );
+                    _logger.LogInformation("Approval email sent successfully to {Email}", order.User?.Email);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Failed to send approval email to {Email}", order.User?.Email);
+                }
+
+                return Ok(new { message = "Order marked as purchased successfully" });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to approve order for claim code: {ClaimCode}", dto.ClaimCode);
+                return StatusCode(500, "An error occurred while processing the order");
+            }
+        }
+
         [HttpDelete("remove/{bookId}")]
         public async Task<IActionResult> RemoveFromOrder(long bookId)
         {
@@ -184,7 +248,6 @@ namespace Book_Haven.Controllers
             return Ok(new { message = "Book removed from order successfully" });
         }
 
-        // Get user's order with discount
         [HttpGet("with-discount")]
         public async Task<IActionResult> GetOrderWithDiscount()
         {
@@ -205,7 +268,8 @@ namespace Book_Haven.Controllers
                     o.Book.Author,
                     o.Book.Price,
                     o.Book.ImagePath,
-                    o.DiscountPercentage
+                    o.DiscountPercentage,
+                    o.IsPurchased
                 })
                 .ToListAsync();
 
@@ -234,7 +298,6 @@ namespace Book_Haven.Controllers
             });
         }
 
-        // Get user's order (original endpoint)
         [HttpGet]
         public async Task<IActionResult> GetOrder()
         {
@@ -255,17 +318,103 @@ namespace Book_Haven.Controllers
                     o.Book.Author,
                     o.Book.Price,
                     o.Book.ImagePath,
-                    o.ClaimCode, // Include ClaimCode for order details
-                    o.DateAdded // Include DateAdded for order details
+                    o.ClaimCode,
+                    o.DateAdded,
+                    o.IsPurchased
                 })
                 .ToListAsync();
 
             return Ok(orders);
+        }
+
+        [HttpGet("all")]
+        [Authorize(Roles = "Admin,SuperAdmin")]
+        public async Task<IActionResult> GetAllOrders()
+        {
+            try
+            {
+                // Log the authenticated user's claims to debug authorization, similar to AuthController
+                var userClaims = User.Claims.Select(c => new { c.Type, c.Value }).ToList();
+                _logger.LogInformation("User claims for GetAllOrders: {@Claims}", userClaims);
+
+                // Explicitly check for roles, similar to how AuthController logs roles
+                var roles = User.FindAll(ClaimTypes.Role).Select(r => r.Value).ToList();
+                _logger.LogInformation("Roles for user in GetAllOrders: {Roles}", string.Join(", ", roles));
+                if (!roles.Contains("Admin", StringComparer.OrdinalIgnoreCase) && !roles.Contains("SuperAdmin", StringComparer.OrdinalIgnoreCase))
+                {
+                    _logger.LogWarning("User does not have Admin or SuperAdmin role. Roles found: {@Roles}", roles);
+                    return StatusCode(403, new { message = "Admin or SuperAdmin role required to access this endpoint" });
+                }
+
+                // Log the start of the database query
+                _logger.LogInformation("Starting database query for orders");
+
+                // Check for referential integrity issues
+                var orderCount = await _context.Orders.CountAsync();
+                var userCount = await _context.Users.CountAsync();
+                var bookCount = await _context.Books.CountAsync();
+                _logger.LogInformation("Database stats: Orders={OrderCount}, Users={UserCount}, Books={BookCount}", orderCount, userCount, bookCount);
+
+                // Fetch orders with safe null handling
+                var orders = await _context.Orders
+                    .Include(o => o.User)
+                    .Include(o => o.Book)
+                    .AsNoTracking()
+                    .Select(o => new
+                    {
+                        Id = o.Id,
+                        ClaimCode = o.ClaimCode ?? "N/A",
+                        Customer = o.User != null ? (o.User.UserName ?? o.User.Email ?? "Unknown") : "Unknown",
+                        Date = o.DateAdded.ToString("yyyy-MM-dd"),
+                        Total = o.Book != null ? Math.Round(o.Book.Price * (1 - o.DiscountPercentage), 2) : 0m,
+                        Items = o.Book != null
+                            ? new[]
+                            {
+                                new
+                                {
+                                    Name = o.Book.Title ?? "Unknown Book",
+                                    Quantity = 1,
+                                    Price = o.Book.Price != null ? Math.Round(o.Book.Price, 2) : 0m
+                                }
+                            }
+                            : new[]
+                            {
+                                new
+                                {
+                                    Name = "Unknown Book",
+                                    Quantity = 1,
+                                    Price = 0m
+                                }
+                            },
+                        Status = o.IsPurchased ? "purchased" : "pending"
+                    })
+                    .ToListAsync();
+
+                // Log the number of orders retrieved
+                _logger.LogInformation("Retrieved {Count} orders for admin dashboard", orders.Count);
+
+                // Log the entire response for debugging
+                _logger.LogDebug("Orders response data: {@Orders}", orders);
+
+                // Always return a plain array, even if empty
+                return Ok(orders);
+            }
+            catch (Exception ex)
+            {
+                // Log the full exception details
+                _logger.LogError("Failed to retrieve orders for admin dashboard. Exception: {ExceptionMessage}", ex.Message);
+                return StatusCode(500, new { message = "An error occurred while retrieving orders", details = ex.Message });
+            }
         }
     }
 
     public class AddOrderDto
     {
         public long BookId { get; set; }
+    }
+
+    public class ApproveOrderDto
+    {
+        public string ClaimCode { get; set; }
     }
 }

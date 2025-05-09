@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\book haven.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\book haven.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509201127_Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250509201127_Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +15,44 @@
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509193616_Database1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250509193616_Database1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509193437_Purchased.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250509193437_Purchased.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\migrations\\20250509085238_database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\migrations\\20250509085238_database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\migrations\\20250509085238_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\migrations\\20250509085238_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\book haven.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\book haven.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,10 +82,6 @@
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -92,10 +96,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\lenovo\\documents\\application development group\\backend\\book haven\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -132,7 +132,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -156,46 +156,160 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "20250509201127_Database.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509201127_Database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250509201127_Database.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509201127_Database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250509201127_Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:11:27.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250509193437_Purchased.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509193437_Purchased.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250509193437_Purchased.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509193437_Purchased.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250509193437_Purchased.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T19:34:37.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Book Haven\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Book Haven\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAswAkBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIIBAAAAAAAAAAAAAJcBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T16:06:55.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Book Haven\\Entities\\Order.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\Order.cs",
               "RelativeToolTip": "Book Haven\\Entities\\Order.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAewBkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T16:09:20.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Book Haven\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:38:49.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Program.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Program.cs",
+              "RelativeToolTip": "Book Haven\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:47:55.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Book Haven.http",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Book Haven.http",
+              "RelativeDocumentMoniker": "Book Haven\\Book Haven.http",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Book Haven.http",
+              "RelativeToolTip": "Book Haven\\Book Haven.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-05T17:22:46.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Book Haven\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Book Haven\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAkwNAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAswMMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T08:31:42.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "20250509193616_Database1.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509193616_Database1.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250509193616_Database1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509193616_Database1.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250509193616_Database1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T19:36:17.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\appsettings.json",
+              "RelativeDocumentMoniker": "Book Haven\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\appsettings.json",
+              "RelativeToolTip": "Book Haven\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T07:08:57.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\User.cs",
+              "RelativeToolTip": "Book Haven\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:26:04.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Book Haven\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Book Haven\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:26:01.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Book Haven\\Controllers\\CartController.cs",
@@ -208,96 +322,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "20250509085238_Database.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509085238_Database.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250509085238_Database.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509085238_Database.cs",
-              "RelativeToolTip": "Book Haven\\Migrations\\20250509085238_Database.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAewNoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:52:38.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\IEmailService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:38:49.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Program.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Program.cs",
-              "RelativeToolTip": "Book Haven\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:47:55.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book Haven.http",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Book Haven.http",
-              "RelativeDocumentMoniker": "Book Haven\\Book Haven.http",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Book Haven.http",
-              "RelativeToolTip": "Book Haven\\Book Haven.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-05T17:22:46.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\appsettings.json",
-              "RelativeDocumentMoniker": "Book Haven\\appsettings.json",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\appsettings.json",
-              "RelativeToolTip": "Book Haven\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-05T07:08:57.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAewGkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:54:02.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Book Haven\\Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\EmailService.cs",
               "RelativeToolTip": "Book Haven\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwDIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:39:01.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:39:01.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "BookDto.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\DTO\\BookDto.cs",
               "RelativeDocumentMoniker": "Book Haven\\DTO\\BookDto.cs",
@@ -305,25 +341,11 @@
               "RelativeToolTip": "Book Haven\\DTO\\BookDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:43:21.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T08:43:21.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250509085238_Database.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509085238_Database.Designer.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250509085238_Database.Designer.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Migrations\\20250509085238_Database.Designer.cs",
-              "RelativeToolTip": "Book Haven\\Migrations\\20250509085238_Database.Designer.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAewGwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:53:58.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Book Haven\\Services\\TokenService.cs",
@@ -335,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "20250509054819_database.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509054819_database.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509054819_database.cs",
@@ -346,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Book Haven\\ApplicationDbContext.cs",
@@ -358,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Services\\ITokenService.cs",
               "RelativeDocumentMoniker": "Book Haven\\Services\\ITokenService.cs",
@@ -370,19 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\User.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:26:04.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\Roles.cs",
               "RelativeDocumentMoniker": "Book Haven\\Entities\\Roles.cs",
@@ -394,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\Cart.cs",
               "RelativeDocumentMoniker": "Book Haven\\Entities\\Cart.cs",
@@ -406,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "Book Haven\\DTO\\RegisterDTO.cs",
@@ -418,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Wishlist.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\DTO\\Wishlist.cs",
               "RelativeDocumentMoniker": "Book Haven\\DTO\\Wishlist.cs",
@@ -442,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "Book Haven\\Entities\\Book.cs",
@@ -463,18 +473,6 @@
               "ViewState": "AgIAAFAAAAAAAAAAAAA5wG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T10:10:44.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:26:01.48Z"
             },
             {
               "$type": "Document",

@@ -24,5 +24,6 @@ namespace Book_Haven.Entities
 
         public decimal DiscountPercentage { get; set; } // Added for tracking discounts
         public string ClaimCode { get; set; }
+        public bool IsPurchased { get; set; } = false;
     }
 }
