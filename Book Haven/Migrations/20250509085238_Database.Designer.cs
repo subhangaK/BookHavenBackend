@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250509055251_Database")]
+    [Migration("20250509085238_Database")]
     partial class Database
     {
         /// <inheritdoc />
@@ -105,6 +105,10 @@ namespace Book_Haven.Migrations
 
                     b.Property<long>("BookId")
                         .HasColumnType("bigint");
+
+                    b.Property<string>("ClaimCode")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("timestamp with time zone");
@@ -233,15 +237,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d6ffb41c-f936-47d9-9178-5c4c9c8b2d89",
+                            ConcurrencyStamp = "569cb75e-8717-40b9-8435-3bc3087a3f7d",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEG5TloroCgRcA2jiHfUEyGcOgFqW6WTbrnO6Ts1W6zP6+AUulQp9JRfMD3TtJktJSQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEE3zk+736YOZLWlGxgXNk7ivb3MhyWvQMpQR78MCPjBZUqCQhAG0mI/deOAm4vS1+g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b2d12bd1-bf0b-4c35-9a78-56a178161977",
+                            SecurityStamp = "da53b189-0d27-484d-8122-1b9a578fe35f",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
