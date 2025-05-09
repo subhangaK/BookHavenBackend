@@ -34,6 +34,14 @@ namespace Book_Haven.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("ISBN")
                         .IsRequired()
                         .HasColumnType("text");
@@ -219,15 +227,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "646612b6-33e0-47f9-a828-8f7a3f3a08ee",
+                            ConcurrencyStamp = "e651cc02-6e4c-42dd-925d-131ca72f0ba7",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMnrSND5WjdCaVYXRNJgRfG0hmouxDiv56KJi02ZswT4V1QyVmBEQyaKjveflr2kbw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFK+oLnRHEYZHqNcVcH0ylAfb8o+eLG8+LSqk2vIuG4L0DrsS1xTrkqzyn458s/gYA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "82fa91ef-1ae1-47d8-a47c-be40fb66475e",
+                            SecurityStamp = "e1251e03-18dc-41d6-95e8-d820b6d072bd",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });

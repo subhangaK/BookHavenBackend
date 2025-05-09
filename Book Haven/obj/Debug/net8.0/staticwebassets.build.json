@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OgOye2jLBFjsAR0c7OVEsQ7WAZkGw/q4cyxh9Cg/Grk=",
+  "Hash": "5DYm70Ej3EWJKFQ5qfoUmODc6NcR9ewftdX1JK7XBeQ=",
   "Source": "Book Haven",
   "BasePath": "_content/Book Haven",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Book Haven\\wwwroot",
       "Source": "Book Haven",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\1c52049d-ad85-4fdc-9da3-82531b74678c.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\1c52049d-ad85-4fdc-9da3-82531b74678c.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/1c52049d-ad85-4fdc-9da3-82531b74678c.jpg",
       "AssetKind": "All",
@@ -36,10 +36,29 @@
       "OriginalItemSpec": "wwwroot\\images\\1c52049d-ad85-4fdc-9da3-82531b74678c.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\31cdaa1c-55c1-4ebf-89df-fa004d721479.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/31cdaa1c-55c1-4ebf-89df-fa004d721479.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\31cdaa1c-55c1-4ebf-89df-fa004d721479.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg",
       "AssetKind": "All",
@@ -55,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\49d58551-b3ec-4109-9531-c7ab06ea7258.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\49d58551-b3ec-4109-9531-c7ab06ea7258.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/49d58551-b3ec-4109-9531-c7ab06ea7258.jpg",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\49d58551-b3ec-4109-9531-c7ab06ea7258.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp",
       "AssetKind": "All",
@@ -188,10 +207,29 @@
       "OriginalItemSpec": "wwwroot\\images\\5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a007135f-331d-4378-a4d2-a56d1bed47fc.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\8b124471-7e9b-4ffb-955e-7b83f24f5ede.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/8b124471-7e9b-4ffb-955e-7b83f24f5ede.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8b124471-7e9b-4ffb-955e-7b83f24f5ede.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\a007135f-331d-4378-a4d2-a56d1bed47fc.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a007135f-331d-4378-a4d2-a56d1bed47fc.jpg",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a007135f-331d-4378-a4d2-a56d1bed47fc.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\dba0ea99-49dd-43b6-a4c7-994b5b4fe934.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\images\\dba0ea99-49dd-43b6-a4c7-994b5b4fe934.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Documents\\Application Development Group\\Backend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/dba0ea99-49dd-43b6-a4c7-994b5b4fe934.jpg",
       "AssetKind": "All",
