@@ -214,7 +214,8 @@ namespace Book_Haven.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UserId = table.Column<long>(type: "bigint", nullable: false),
                     BookId = table.Column<long>(type: "bigint", nullable: false),
-                    DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    DiscountPercentage = table.Column<decimal>(type: "numeric", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -268,7 +269,7 @@ namespace Book_Haven.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1L, 0, "e651cc02-6e4c-42dd-925d-131ca72f0ba7", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEFK+oLnRHEYZHqNcVcH0ylAfb8o+eLG8+LSqk2vIuG4L0DrsS1xTrkqzyn458s/gYA==", null, false, "e1251e03-18dc-41d6-95e8-d820b6d072bd", false, "admin" });
+                values: new object[] { 1L, 0, "d6ffb41c-f936-47d9-9178-5c4c9c8b2d89", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEG5TloroCgRcA2jiHfUEyGcOgFqW6WTbrnO6Ts1W6zP6+AUulQp9JRfMD3TtJktJSQ==", null, false, "b2d12bd1-bf0b-4c35-9a78-56a178161977", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",

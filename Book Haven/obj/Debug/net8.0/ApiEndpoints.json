@@ -275,6 +275,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Book_Haven.Controllers.OrderController",
+    "Method": "GetOrderWithDiscount",
+    "RelativePath": "api/Order/with-discount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Book_Haven.Controllers.WishlistController",
     "Method": "GetWishlist",
     "RelativePath": "api/Wishlist",

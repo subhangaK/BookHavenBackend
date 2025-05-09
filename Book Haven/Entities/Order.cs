@@ -21,5 +21,7 @@ namespace Book_Haven.Entities
         public Book? Book { get; set; }
 
         public DateTime DateAdded { get; set; } = DateTime.UtcNow;
+
+        public decimal DiscountPercentage { get; set; } // Added for tracking discounts
     }
 }

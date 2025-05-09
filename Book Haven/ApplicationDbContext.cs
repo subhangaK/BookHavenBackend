@@ -12,11 +12,8 @@ namespace Book_Haven
         }
 
         public DbSet<Book> Books { get; set; }
-
         public DbSet<Wishlist> Wishlists { get; set; }
-
         public DbSet<Cart> Carts { get; set; }
-
         public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -36,7 +33,6 @@ namespace Book_Haven
                 .HasForeignKey(w => w.BookId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Add unique index to prevent duplicate wishlist entries
             builder.Entity<Wishlist>()
                 .HasIndex(w => new { w.UserId, w.BookId })
                 .IsUnique();
@@ -54,7 +50,6 @@ namespace Book_Haven
                 .HasForeignKey(c => c.BookId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Add unique index to prevent duplicate cart entries
             builder.Entity<Cart>()
                 .HasIndex(c => new { c.UserId, c.BookId })
                 .IsUnique();
@@ -72,7 +67,6 @@ namespace Book_Haven
                 .HasForeignKey(o => o.BookId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Add unique index to prevent duplicate order entries
             builder.Entity<Order>()
                 .HasIndex(o => new { o.UserId, o.BookId })
                 .IsUnique();
