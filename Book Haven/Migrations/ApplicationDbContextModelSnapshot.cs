@@ -165,15 +165,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a3142e48-3b9a-44bd-9eaa-f7ca42d97d0c",
+                            ConcurrencyStamp = "3a44090d-c33c-4b35-9c48-88e4b84be78a",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHr08nWtVwX9k4chS3NMQQdhy0J0RqTI2MYbJsoCQO2j6EozDGMgsOEEmpoKdJQNnQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEII20h2q33/igY2V3FBUvE9yS3eVG4FvBbTz+1mxqLVlhPyfw21oYwHCCh5nv0TQ/w==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4464d4b3-732a-4ba9-b842-7eaa9133459a",
+                            SecurityStamp = "507fe779-a8bd-4fcf-befb-49806f6d390f",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
