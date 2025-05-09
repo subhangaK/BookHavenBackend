@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250506131303_Cart")]
-    partial class Cart
+    [Migration("20250509052443_Database")]
+    partial class Database
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,6 +34,14 @@ namespace Book_Haven.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
 
                     b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -85,6 +93,33 @@ namespace Book_Haven.Migrations
                         .IsUnique();
 
                     b.ToTable("Carts");
+                });
+
+            modelBuilder.Entity("Book_Haven.Entities.Order", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("BookId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("DateAdded")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("UserId", "BookId")
+                        .IsUnique();
+
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Book_Haven.Entities.Roles", b =>
@@ -195,15 +230,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ed357c77-3f46-4060-9828-5adf99dbe012",
+                            ConcurrencyStamp = "e651cc02-6e4c-42dd-925d-131ca72f0ba7",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJLmhlqoOpWI+0EbnY+QnYaXvpEjua0RqfszI+RhEVSDx1k5Qt/Ln5XAIIqUlGGKoA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFK+oLnRHEYZHqNcVcH0ylAfb8o+eLG8+LSqk2vIuG4L0DrsS1xTrkqzyn458s/gYA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9bcfe43a-2138-4546-8909-3525cd666ce7",
+                            SecurityStamp = "e1251e03-18dc-41d6-95e8-d820b6d072bd",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -347,6 +382,25 @@ namespace Book_Haven.Migrations
                 });
 
             modelBuilder.Entity("Book_Haven.Entities.Cart", b =>
+                {
+                    b.HasOne("Book_Haven.Entities.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Book_Haven.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Book_Haven.Entities.Order", b =>
                 {
                     b.HasOne("Book_Haven.Entities.Book", "Book")
                         .WithMany()

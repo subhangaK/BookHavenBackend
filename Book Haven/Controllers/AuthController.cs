@@ -83,7 +83,9 @@ namespace Book_Haven.Controllers
                 Author = bookDto.Author,
                 ISBN = bookDto.ISBN,
                 Price = bookDto.Price,
-                PublicationYear = bookDto.PublicationYear
+                PublicationYear = bookDto.PublicationYear,
+                Description = bookDto.Description,
+                Category = bookDto.Category
             };
 
             if (bookDto.Image != null && bookDto.Image.Length > 0)
@@ -127,6 +129,8 @@ namespace Book_Haven.Controllers
             book.ISBN = bookDto.ISBN;
             book.Price = bookDto.Price;
             book.PublicationYear = bookDto.PublicationYear;
+            book.Description = bookDto.Description;
+            book.Category = bookDto.Category;
 
             if (bookDto.Image != null && bookDto.Image.Length > 0)
             {
