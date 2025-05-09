@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250506155109_database1")]
-    partial class database1
+    [Migration("20250509055251_Database")]
+    partial class Database
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,6 +34,14 @@ namespace Book_Haven.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
 
                     b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -100,6 +108,9 @@ namespace Book_Haven.Migrations
 
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<decimal>("DiscountPercentage")
+                        .HasColumnType("numeric");
 
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
@@ -222,15 +233,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c7316f52-83e2-4b24-82e5-df3ee28ae250",
+                            ConcurrencyStamp = "d6ffb41c-f936-47d9-9178-5c4c9c8b2d89",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAENa/x9sReUmoKZZKCYZXJmTGc5Yc1HKfABDtj4MnlT4URok3hp/srOC8exWePtCrAw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEG5TloroCgRcA2jiHfUEyGcOgFqW6WTbrnO6Ts1W6zP6+AUulQp9JRfMD3TtJktJSQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "29d5ca0e-5dd9-4d1c-ac09-0a761a68ac38",
+                            SecurityStamp = "b2d12bd1-bf0b-4c35-9a78-56a178161977",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });

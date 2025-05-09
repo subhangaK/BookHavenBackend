@@ -358,6 +358,14 @@ C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0
 C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.pdb
 C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.genruntimeconfig.cache
 C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\ref\Book Haven.dll
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.csproj.AssemblyReference.cache
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.AssemblyInfoInputs.cache
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.AssemblyInfo.cs
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.sourcelink.json
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\appsettings.json
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\Book Haven.staticwebassets.runtime.json
@@ -456,14 +464,6 @@ C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.csproj.AssemblyReference.cache
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.AssemblyInfoInputs.cache
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.AssemblyInfo.cs
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.csproj.CoreCompileInputs.cache
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.sourcelink.json
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\staticwebassets\msbuild.Book Haven.Microsoft.AspNetCore.StaticWebAssets.props
