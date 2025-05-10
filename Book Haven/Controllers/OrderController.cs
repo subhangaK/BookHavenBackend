@@ -320,7 +320,8 @@ namespace Book_Haven.Controllers
                     o.Book.ImagePath,
                     o.ClaimCode,
                     o.DateAdded,
-                    o.IsPurchased
+                    o.IsPurchased,
+                    HasPurchased = _context.Orders.Any(ord => ord.UserId == userId && ord.BookId == o.BookId && ord.IsPurchased)
                 })
                 .ToListAsync();
 
@@ -333,11 +334,9 @@ namespace Book_Haven.Controllers
         {
             try
             {
-                // Log the authenticated user's claims to debug authorization, similar to AuthController
                 var userClaims = User.Claims.Select(c => new { c.Type, c.Value }).ToList();
                 _logger.LogInformation("User claims for GetAllOrders: {@Claims}", userClaims);
 
-                // Explicitly check for roles, similar to how AuthController logs roles
                 var roles = User.FindAll(ClaimTypes.Role).Select(r => r.Value).ToList();
                 _logger.LogInformation("Roles for user in GetAllOrders: {Roles}", string.Join(", ", roles));
                 if (!roles.Contains("Admin", StringComparer.OrdinalIgnoreCase) && !roles.Contains("SuperAdmin", StringComparer.OrdinalIgnoreCase))
@@ -346,16 +345,13 @@ namespace Book_Haven.Controllers
                     return StatusCode(403, new { message = "Admin or SuperAdmin role required to access this endpoint" });
                 }
 
-                // Log the start of the database query
                 _logger.LogInformation("Starting database query for orders");
 
-                // Check for referential integrity issues
                 var orderCount = await _context.Orders.CountAsync();
                 var userCount = await _context.Users.CountAsync();
                 var bookCount = await _context.Books.CountAsync();
                 _logger.LogInformation("Database stats: Orders={OrderCount}, Users={UserCount}, Books={BookCount}", orderCount, userCount, bookCount);
 
-                // Fetch orders with safe null handling
                 var orders = await _context.Orders
                     .Include(o => o.User)
                     .Include(o => o.Book)
@@ -390,18 +386,13 @@ namespace Book_Haven.Controllers
                     })
                     .ToListAsync();
 
-                // Log the number of orders retrieved
                 _logger.LogInformation("Retrieved {Count} orders for admin dashboard", orders.Count);
-
-                // Log the entire response for debugging
                 _logger.LogDebug("Orders response data: {@Orders}", orders);
 
-                // Always return a plain array, even if empty
                 return Ok(orders);
             }
             catch (Exception ex)
             {
-                // Log the full exception details
                 _logger.LogError("Failed to retrieve orders for admin dashboard. Exception: {ExceptionMessage}", ex.Message);
                 return StatusCode(500, new { message = "An error occurred while retrieving orders", details = ex.Message });
             }

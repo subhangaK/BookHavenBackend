@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250509201127_Database")]
-    partial class Database
+    [Migration("20250510071231_database")]
+    partial class database
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -132,6 +132,40 @@ namespace Book_Haven.Migrations
                     b.ToTable("Orders");
                 });
 
+            modelBuilder.Entity("Book_Haven.Entities.Review", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("BookId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<DateTime>("DatePosted")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("integer");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Reviews");
+                });
+
             modelBuilder.Entity("Book_Haven.Entities.Roles", b =>
                 {
                     b.Property<long>("Id")
@@ -240,15 +274,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2f0b194d-e74b-40d9-8766-3afddfa9800c",
+                            ConcurrencyStamp = "d9d6a23c-0a81-405d-b235-aae9b7330f14",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJF2abt2hXRZf4zMwwT2zq6sQlYyaOFVN/6TNr2lr7o250dzOqAqXt6LccnvMPinOQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEE2z3ezW9Uw6oRG37t63cvvWqItQPS8QyTX8xQE7TG4iCRWObK55XHUIrta0Yr0LTg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7c52ec99-47c7-4027-a188-d43439671ec1",
+                            SecurityStamp = "6c4cf10f-828d-4b45-91c4-a486d53c1db4",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -411,6 +445,25 @@ namespace Book_Haven.Migrations
                 });
 
             modelBuilder.Entity("Book_Haven.Entities.Order", b =>
+                {
+                    b.HasOne("Book_Haven.Entities.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Book_Haven.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Book_Haven.Entities.Review", b =>
                 {
                     b.HasOne("Book_Haven.Entities.Book", "Book")
                         .WithMany()
