@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class Database : Migration
+    public partial class database : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -215,7 +215,8 @@ namespace Book_Haven.Migrations
                     UserId = table.Column<long>(type: "bigint", nullable: false),
                     BookId = table.Column<long>(type: "bigint", nullable: false),
                     DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    DiscountPercentage = table.Column<decimal>(type: "numeric", nullable: false)
+                    DiscountPercentage = table.Column<decimal>(type: "numeric", nullable: false),
+                    ClaimCode = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -269,7 +270,7 @@ namespace Book_Haven.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1L, 0, "d6ffb41c-f936-47d9-9178-5c4c9c8b2d89", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEG5TloroCgRcA2jiHfUEyGcOgFqW6WTbrnO6Ts1W6zP6+AUulQp9JRfMD3TtJktJSQ==", null, false, "b2d12bd1-bf0b-4c35-9a78-56a178161977", false, "admin" });
+                values: new object[] { 1L, 0, "efbd65da-8c99-4ff0-9b93-49ffc053bb1b", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAELZQ9gAu0ypAhu5x0Jy22aBi4b2v1WauYbhy5d0TiQDRaxsO3h6XF+7LYPb5Dc5woA==", null, false, "0f96a19d-5482-4506-80f6-544250c373dc", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",

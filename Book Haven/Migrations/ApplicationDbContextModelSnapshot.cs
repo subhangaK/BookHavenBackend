@@ -103,6 +103,10 @@ namespace Book_Haven.Migrations
                     b.Property<long>("BookId")
                         .HasColumnType("bigint");
 
+                    b.Property<string>("ClaimCode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("timestamp with time zone");
 
@@ -230,15 +234,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d6ffb41c-f936-47d9-9178-5c4c9c8b2d89",
+                            ConcurrencyStamp = "efbd65da-8c99-4ff0-9b93-49ffc053bb1b",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEG5TloroCgRcA2jiHfUEyGcOgFqW6WTbrnO6Ts1W6zP6+AUulQp9JRfMD3TtJktJSQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELZQ9gAu0ypAhu5x0Jy22aBi4b2v1WauYbhy5d0TiQDRaxsO3h6XF+7LYPb5Dc5woA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b2d12bd1-bf0b-4c35-9a78-56a178161977",
+                            SecurityStamp = "0f96a19d-5482-4506-80f6-544250c373dc",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
