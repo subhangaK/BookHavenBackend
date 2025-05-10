@@ -73,7 +73,7 @@ app.Use(async (context, next) =>
 app.UseCors("AllowFrontend");
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseCors("AllowFrontend");
 app.MapControllers();
 app.UseStaticFiles();
 
