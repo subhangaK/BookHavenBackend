@@ -90,6 +90,7 @@ namespace Book_Haven.Controllers
         }
 
         [HttpGet("{bookId}")]
+        [AllowAnonymous] // Allow unauthenticated users to view reviews
         public async Task<IActionResult> GetReviewsForBook(long bookId)
         {
             if (bookId <= 0)
