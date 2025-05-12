@@ -257,6 +257,9 @@ namespace Book_Haven.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("boolean");
 
+                    b.Property<string>("ProfilePicture")
+                        .HasColumnType("text");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
@@ -283,15 +286,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "72b13623-ade5-4726-aec9-094f3312b0a6",
+                            ConcurrencyStamp = "4b3d76aa-a68a-454d-8f77-c15b3c7d63ec",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAECnqQ69HtuPAIA3tNj3tlFFtx5rCk8r6ahSzwTzbzwF4UGshJQhVncLzmt7XAIdNpw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ6aDFpwpCK8VKH4a1lSnEAX4od55Gt5/GyeqrdIgN++JDN1CL+qzOISdDvyXPPgqA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "6cea64fe-a1fb-48d8-bbaf-df896f4b7ac8",
+                            SecurityStamp = "ed6a19b4-617d-4058-8712-0906bec7bea0",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });

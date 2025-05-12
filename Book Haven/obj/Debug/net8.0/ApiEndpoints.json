@@ -364,6 +364,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Book_Haven.Controllers.UserController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/User/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.UserController",
+    "Method": "UpdateUsername",
+    "RelativePath": "api/User/update-username",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Book_Haven.Controllers.UpdateUsernameDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.UserController",
+    "Method": "UploadProfilePicture",
+    "RelativePath": "api/User/upload-profile-picture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Book_Haven.Controllers.WishlistController",
     "Method": "GetWishlist",
     "RelativePath": "api/Wishlist",

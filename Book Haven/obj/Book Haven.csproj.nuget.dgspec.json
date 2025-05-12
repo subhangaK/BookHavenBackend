@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj": {}
+    "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj": {
+    "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
+        "projectUniqueName": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
         "projectName": "Book Haven",
-        "projectPath": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
-        "packagesPath": "C:\\Users\\TuF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\obj\\",
+        "projectPath": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
+        "packagesPath": "C:\\Users\\OMEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TuF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

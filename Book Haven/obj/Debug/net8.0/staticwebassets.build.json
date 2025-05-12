@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zV23QG1QytSdkF4oMiaxBKl1gJykC+qxZ4yykHt9pJ8=",
+  "Hash": "wI1E5m31+1IGcRo7/fN9lRAMc8GfQMiaNPR+9Y6PWe0=",
   "Source": "Book Haven",
   "BasePath": "_content/Book Haven",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Book Haven\\wwwroot",
       "Source": "Book Haven",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\03787568-0c64-4eda-95c4-52f86e3df31e.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\03787568-0c64-4eda-95c4-52f86e3df31e.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/03787568-0c64-4eda-95c4-52f86e3df31e.PNG",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\images\\03787568-0c64-4eda-95c4-52f86e3df31e.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0559e3e6-5ae6-4e94-9a48-a14410d92c4c.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0559e3e6-5ae6-4e94-9a48-a14410d92c4c.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0559e3e6-5ae6-4e94-9a48-a14410d92c4c.PNG",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0559e3e6-5ae6-4e94-9a48-a14410d92c4c.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\055fe744-0fe1-46e4-9d32-0bb7850ae580.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\055fe744-0fe1-46e4-9d32-0bb7850ae580.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/055fe744-0fe1-46e4-9d32-0bb7850ae580.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\055fe744-0fe1-46e4-9d32-0bb7850ae580.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\06f66c8a-c74f-448d-b315-69f57ac96014.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\06f66c8a-c74f-448d-b315-69f57ac96014.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/06f66c8a-c74f-448d-b315-69f57ac96014.PNG",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06f66c8a-c74f-448d-b315-69f57ac96014.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\074b7529-d172-4519-93aa-3ddaaed28917.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\074b7529-d172-4519-93aa-3ddaaed28917.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/074b7529-d172-4519-93aa-3ddaaed28917.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\074b7529-d172-4519-93aa-3ddaaed28917.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0816ac15-7603-4e34-bb40-4eab1ef57133.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0816ac15-7603-4e34-bb40-4eab1ef57133.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0816ac15-7603-4e34-bb40-4eab1ef57133.PNG",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0816ac15-7603-4e34-bb40-4eab1ef57133.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\08444266-8426-40d8-b72d-2a63d89d2cb3.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\08444266-8426-40d8-b72d-2a63d89d2cb3.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/08444266-8426-40d8-b72d-2a63d89d2cb3.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\08444266-8426-40d8-b72d-2a63d89d2cb3.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0a69ad68-2d61-4e6e-b33d-ba8068b81a38.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0a69ad68-2d61-4e6e-b33d-ba8068b81a38.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0a69ad68-2d61-4e6e-b33d-ba8068b81a38.PNG",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0a69ad68-2d61-4e6e-b33d-ba8068b81a38.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0cae9fe6-5a39-4e9a-aa39-6c001bef8056.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0cae9fe6-5a39-4e9a-aa39-6c001bef8056.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0cae9fe6-5a39-4e9a-aa39-6c001bef8056.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0cae9fe6-5a39-4e9a-aa39-6c001bef8056.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0d02d0d4-1c51-4968-8f4e-dd78227081f2.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0d02d0d4-1c51-4968-8f4e-dd78227081f2.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0d02d0d4-1c51-4968-8f4e-dd78227081f2.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0d02d0d4-1c51-4968-8f4e-dd78227081f2.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0d6d93e8-2f46-4f86-97e3-6352d69a464b.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0d6d93e8-2f46-4f86-97e3-6352d69a464b.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0d6d93e8-2f46-4f86-97e3-6352d69a464b.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0d6d93e8-2f46-4f86-97e3-6352d69a464b.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0dd21cfa-8bc6-4b31-9b18-125431e2774a.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0dd21cfa-8bc6-4b31-9b18-125431e2774a.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0dd21cfa-8bc6-4b31-9b18-125431e2774a.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0dd21cfa-8bc6-4b31-9b18-125431e2774a.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0e69a110-fbc6-4f7a-8211-960dbc229edb.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0e69a110-fbc6-4f7a-8211-960dbc229edb.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0e69a110-fbc6-4f7a-8211-960dbc229edb.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0e69a110-fbc6-4f7a-8211-960dbc229edb.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0e7ffa30-8fa6-4184-b022-a51d5d7f5267.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0e7ffa30-8fa6-4184-b022-a51d5d7f5267.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0e7ffa30-8fa6-4184-b022-a51d5d7f5267.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0e7ffa30-8fa6-4184-b022-a51d5d7f5267.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0f5a19b7-2b8e-4e19-8e1a-35b76c57d00b.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0f5a19b7-2b8e-4e19-8e1a-35b76c57d00b.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0f5a19b7-2b8e-4e19-8e1a-35b76c57d00b.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0f5a19b7-2b8e-4e19-8e1a-35b76c57d00b.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0fec8468-62da-4c1a-b47d-2248a9793dcf.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\0fec8468-62da-4c1a-b47d-2248a9793dcf.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/0fec8468-62da-4c1a-b47d-2248a9793dcf.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0fec8468-62da-4c1a-b47d-2248a9793dcf.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\151e5731-d6b5-46cf-a777-e0f5668578c7.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\151e5731-d6b5-46cf-a777-e0f5668578c7.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/151e5731-d6b5-46cf-a777-e0f5668578c7.PNG",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\151e5731-d6b5-46cf-a777-e0f5668578c7.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\1c52049d-ad85-4fdc-9da3-82531b74678c.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\1c52049d-ad85-4fdc-9da3-82531b74678c.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/1c52049d-ad85-4fdc-9da3-82531b74678c.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1c52049d-ad85-4fdc-9da3-82531b74678c.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\1e637275-1210-48ee-9a8d-57ebf6ea4dbf.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\1e637275-1210-48ee-9a8d-57ebf6ea4dbf.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/1e637275-1210-48ee-9a8d-57ebf6ea4dbf.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1e637275-1210-48ee-9a8d-57ebf6ea4dbf.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\224d2802-85b4-4464-b24f-9d17fefb2093.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\224d2802-85b4-4464-b24f-9d17fefb2093.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/224d2802-85b4-4464-b24f-9d17fefb2093.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\224d2802-85b4-4464-b24f-9d17fefb2093.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2306c71b-e148-45d1-bec1-6f7157f503d5.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2306c71b-e148-45d1-bec1-6f7157f503d5.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/2306c71b-e148-45d1-bec1-6f7157f503d5.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2306c71b-e148-45d1-bec1-6f7157f503d5.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\23ea1677-d327-40f7-b183-eae20b2bdb1d.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\23ea1677-d327-40f7-b183-eae20b2bdb1d.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/23ea1677-d327-40f7-b183-eae20b2bdb1d.PNG",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\23ea1677-d327-40f7-b183-eae20b2bdb1d.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\24d07e78-4dce-485c-ac90-b31b0ec1a2d0.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\24d07e78-4dce-485c-ac90-b31b0ec1a2d0.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/24d07e78-4dce-485c-ac90-b31b0ec1a2d0.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\24d07e78-4dce-485c-ac90-b31b0ec1a2d0.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\25c1d126-0aa1-4f41-a0ea-7f115dd8ae16.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\25c1d126-0aa1-4f41-a0ea-7f115dd8ae16.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/25c1d126-0aa1-4f41-a0ea-7f115dd8ae16.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\25c1d126-0aa1-4f41-a0ea-7f115dd8ae16.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2651666f-5fcc-403a-8692-701c21ae9375.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2651666f-5fcc-403a-8692-701c21ae9375.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/2651666f-5fcc-403a-8692-701c21ae9375.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2651666f-5fcc-403a-8692-701c21ae9375.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2a12840f-ec74-4100-99e6-4c607ddad509.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2a12840f-ec74-4100-99e6-4c607ddad509.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/2a12840f-ec74-4100-99e6-4c607ddad509.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2a12840f-ec74-4100-99e6-4c607ddad509.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2a8a028a-49a0-402f-841b-28609052175a.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2a8a028a-49a0-402f-841b-28609052175a.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/2a8a028a-49a0-402f-841b-28609052175a.PNG",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2a8a028a-49a0-402f-841b-28609052175a.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2aa6c920-fa0a-4070-88a4-f2a6a2010dba.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2aa6c920-fa0a-4070-88a4-f2a6a2010dba.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/2aa6c920-fa0a-4070-88a4-f2a6a2010dba.PNG",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2aa6c920-fa0a-4070-88a4-f2a6a2010dba.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2c04794f-e1d6-483f-840c-15401cdc4d8c.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2c04794f-e1d6-483f-840c-15401cdc4d8c.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/2c04794f-e1d6-483f-840c-15401cdc4d8c.PNG",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2c04794f-e1d6-483f-840c-15401cdc4d8c.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2d491dcc-5223-4eba-8102-176b4d407967.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\2d491dcc-5223-4eba-8102-176b4d407967.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/2d491dcc-5223-4eba-8102-176b4d407967.png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2d491dcc-5223-4eba-8102-176b4d407967.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\3015ae96-b691-4449-9155-60aed560d32f.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\3015ae96-b691-4449-9155-60aed560d32f.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/3015ae96-b691-4449-9155-60aed560d32f.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3015ae96-b691-4449-9155-60aed560d32f.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\316af287-5fcd-4ec4-83b6-ac57889633ec.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\316af287-5fcd-4ec4-83b6-ac57889633ec.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/316af287-5fcd-4ec4-83b6-ac57889633ec.jpg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\316af287-5fcd-4ec4-83b6-ac57889633ec.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\31cdaa1c-55c1-4ebf-89df-fa004d721479.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\31cdaa1c-55c1-4ebf-89df-fa004d721479.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/31cdaa1c-55c1-4ebf-89df-fa004d721479.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\31cdaa1c-55c1-4ebf-89df-fa004d721479.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\334338ed-603f-4d4e-ab3a-8824c1a16ca9.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\334338ed-603f-4d4e-ab3a-8824c1a16ca9.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/334338ed-603f-4d4e-ab3a-8824c1a16ca9.PNG",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\334338ed-603f-4d4e-ab3a-8824c1a16ca9.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\343538e4-2717-485f-9ce7-5e1ddab9ecb3.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\37b068bb-46d7-4bec-aecf-f83fc7d585e7.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\37b068bb-46d7-4bec-aecf-f83fc7d585e7.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/37b068bb-46d7-4bec-aecf-f83fc7d585e7.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\37b068bb-46d7-4bec-aecf-f83fc7d585e7.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\3979f087-36cf-45c7-a52b-e9d1ed0f1434.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\3979f087-36cf-45c7-a52b-e9d1ed0f1434.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/3979f087-36cf-45c7-a52b-e9d1ed0f1434.PNG",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3979f087-36cf-45c7-a52b-e9d1ed0f1434.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\3a72d323-00c6-4470-95c4-64fede2cbe54.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\3a72d323-00c6-4470-95c4-64fede2cbe54.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/3a72d323-00c6-4470-95c4-64fede2cbe54.jpg",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3a72d323-00c6-4470-95c4-64fede2cbe54.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\40fd7df4-5016-4e90-8fc1-b8c76729c625.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\40fd7df4-5016-4e90-8fc1-b8c76729c625.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/40fd7df4-5016-4e90-8fc1-b8c76729c625.PNG",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\40fd7df4-5016-4e90-8fc1-b8c76729c625.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4117cd6a-2a0b-4f29-973b-f2ed804756ef.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4117cd6a-2a0b-4f29-973b-f2ed804756ef.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4117cd6a-2a0b-4f29-973b-f2ed804756ef.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4117cd6a-2a0b-4f29-973b-f2ed804756ef.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\429de93e-2184-4b02-bceb-b5ad3f84cc91.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\429de93e-2184-4b02-bceb-b5ad3f84cc91.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/429de93e-2184-4b02-bceb-b5ad3f84cc91.jpg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\429de93e-2184-4b02-bceb-b5ad3f84cc91.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\42b9664f-bbe9-45b4-aa75-eec356acb786.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\42b9664f-bbe9-45b4-aa75-eec356acb786.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/42b9664f-bbe9-45b4-aa75-eec356acb786.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\42b9664f-bbe9-45b4-aa75-eec356acb786.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4313bd2e-ff30-4b03-abc7-bb8e4caa1ff2.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4313bd2e-ff30-4b03-abc7-bb8e4caa1ff2.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4313bd2e-ff30-4b03-abc7-bb8e4caa1ff2.jpg",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4313bd2e-ff30-4b03-abc7-bb8e4caa1ff2.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\43c997f2-3264-409e-910f-05fc23c2784b.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\43c997f2-3264-409e-910f-05fc23c2784b.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/43c997f2-3264-409e-910f-05fc23c2784b.jpg",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\43c997f2-3264-409e-910f-05fc23c2784b.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\449758e7-9a93-41e9-989f-23fbfa6c742f.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\449758e7-9a93-41e9-989f-23fbfa6c742f.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/449758e7-9a93-41e9-989f-23fbfa6c742f.jpg",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\449758e7-9a93-41e9-989f-23fbfa6c742f.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\46669e36-cafa-4023-b68e-da0bffc9d507.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\46669e36-cafa-4023-b68e-da0bffc9d507.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/46669e36-cafa-4023-b68e-da0bffc9d507.jpg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\46669e36-cafa-4023-b68e-da0bffc9d507.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\46df332b-c40e-4a92-8675-5d723e9f8309.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\46df332b-c40e-4a92-8675-5d723e9f8309.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/46df332b-c40e-4a92-8675-5d723e9f8309.jpg",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\46df332b-c40e-4a92-8675-5d723e9f8309.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\49d58551-b3ec-4109-9531-c7ab06ea7258.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\49d58551-b3ec-4109-9531-c7ab06ea7258.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/49d58551-b3ec-4109-9531-c7ab06ea7258.jpg",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\49d58551-b3ec-4109-9531-c7ab06ea7258.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4b95b3b4-127e-4ac9-b0b8-b181cecfb296.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4dad3956-a895-46c2-bf7a-3f8f15c62331.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4dad3956-a895-46c2-bf7a-3f8f15c62331.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4dad3956-a895-46c2-bf7a-3f8f15c62331.PNG",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4dad3956-a895-46c2-bf7a-3f8f15c62331.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4e15e946-a53c-46b5-8ca6-f92c62da48a0.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4e15e946-a53c-46b5-8ca6-f92c62da48a0.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4e15e946-a53c-46b5-8ca6-f92c62da48a0.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4e15e946-a53c-46b5-8ca6-f92c62da48a0.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4ef0a331-227d-4ee4-9f5c-bd22826455f1.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4ef0a331-227d-4ee4-9f5c-bd22826455f1.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4ef0a331-227d-4ee4-9f5c-bd22826455f1.PNG",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4ef0a331-227d-4ee4-9f5c-bd22826455f1.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4f4facfe-39bb-404b-89a5-17524e548fdd.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\4f4facfe-39bb-404b-89a5-17524e548fdd.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/4f4facfe-39bb-404b-89a5-17524e548fdd.PNG",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4f4facfe-39bb-404b-89a5-17524e548fdd.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\508d9ade-f5bc-4c42-8ef0-ffca8e912713.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\53595d64-1c44-4854-83af-9f730448d8dd.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\53595d64-1c44-4854-83af-9f730448d8dd.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/53595d64-1c44-4854-83af-9f730448d8dd.PNG",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\53595d64-1c44-4854-83af-9f730448d8dd.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\543a0dd8-e76e-4547-abe6-05564b6c1968.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\543a0dd8-e76e-4547-abe6-05564b6c1968.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/543a0dd8-e76e-4547-abe6-05564b6c1968.PNG",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\543a0dd8-e76e-4547-abe6-05564b6c1968.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5492107c-b95c-4e81-8b8c-1e3dc03f91b5.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5492107c-b95c-4e81-8b8c-1e3dc03f91b5.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/5492107c-b95c-4e81-8b8c-1e3dc03f91b5.jpg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5492107c-b95c-4e81-8b8c-1e3dc03f91b5.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\553f817f-358d-4bd7-be17-c66d1f365376.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\553f817f-358d-4bd7-be17-c66d1f365376.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/553f817f-358d-4bd7-be17-c66d1f365376.jpg",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\553f817f-358d-4bd7-be17-c66d1f365376.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\56be3157-2c4d-4417-91f1-c39942146b21.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\56be3157-2c4d-4417-91f1-c39942146b21.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/56be3157-2c4d-4417-91f1-c39942146b21.PNG",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\56be3157-2c4d-4417-91f1-c39942146b21.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\56f11b1c-8a4e-47b8-8eeb-97f8a1c1397c.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\58e69cee-9977-4d8d-8145-4bf5f76b0a31.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\58e69cee-9977-4d8d-8145-4bf5f76b0a31.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/58e69cee-9977-4d8d-8145-4bf5f76b0a31.PNG",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\58e69cee-9977-4d8d-8145-4bf5f76b0a31.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5aa8d199-8f5a-4db7-b319-0e77ba3fc4cb.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5b39247c-43aa-4da2-9fe5-e9e8c92d5083.webp"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6264edf6-f5f7-4696-9f8d-9a18efa9ca30.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6264edf6-f5f7-4696-9f8d-9a18efa9ca30.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/6264edf6-f5f7-4696-9f8d-9a18efa9ca30.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\6264edf6-f5f7-4696-9f8d-9a18efa9ca30.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\63744544-578e-489b-a8e4-79cf468026d7.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\63744544-578e-489b-a8e4-79cf468026d7.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/63744544-578e-489b-a8e4-79cf468026d7.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,29 @@
       "OriginalItemSpec": "wwwroot\\images\\63744544-578e-489b-a8e4-79cf468026d7.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\65e44ff0-4622-4a96-a15e-da504690f7fb.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\655c3e40-ee6b-4174-8d47-fc6b0de5f602.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/655c3e40-ee6b-4174-8d47-fc6b0de5f602.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\655c3e40-ee6b-4174-8d47-fc6b0de5f602.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\65e44ff0-4622-4a96-a15e-da504690f7fb.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/65e44ff0-4622-4a96-a15e-da504690f7fb.jpg",
       "AssetKind": "All",
@@ -1290,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\65e44ff0-4622-4a96-a15e-da504690f7fb.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\65ec7c0c-5766-42bc-9c6a-1acbe35728a1.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\65ec7c0c-5766-42bc-9c6a-1acbe35728a1.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/65ec7c0c-5766-42bc-9c6a-1acbe35728a1.png",
       "AssetKind": "All",
@@ -1309,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\65ec7c0c-5766-42bc-9c6a-1acbe35728a1.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6703b967-33d4-41fb-b358-ede0993f536f.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6703b967-33d4-41fb-b358-ede0993f536f.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/6703b967-33d4-41fb-b358-ede0993f536f.png",
       "AssetKind": "All",
@@ -1328,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\6703b967-33d4-41fb-b358-ede0993f536f.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6b96f503-f8f8-43b2-8f8e-81fe650b3a19.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6b96f503-f8f8-43b2-8f8e-81fe650b3a19.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/6b96f503-f8f8-43b2-8f8e-81fe650b3a19.PNG",
       "AssetKind": "All",
@@ -1347,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\6b96f503-f8f8-43b2-8f8e-81fe650b3a19.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6c27b160-ca76-4ef0-8ef9-b119c5dac026.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\6c27b160-ca76-4ef0-8ef9-b119c5dac026.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/6c27b160-ca76-4ef0-8ef9-b119c5dac026.png",
       "AssetKind": "All",
@@ -1366,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\6c27b160-ca76-4ef0-8ef9-b119c5dac026.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\7048d299-0a9d-4df8-9b51-af0a513363b7.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\7048d299-0a9d-4df8-9b51-af0a513363b7.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/7048d299-0a9d-4df8-9b51-af0a513363b7.jpg",
       "AssetKind": "All",
@@ -1385,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7048d299-0a9d-4df8-9b51-af0a513363b7.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\726ed1c6-8254-43a6-aea2-8e2d0a5eb0b1.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\726ed1c6-8254-43a6-aea2-8e2d0a5eb0b1.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/726ed1c6-8254-43a6-aea2-8e2d0a5eb0b1.PNG",
       "AssetKind": "All",
@@ -1404,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\726ed1c6-8254-43a6-aea2-8e2d0a5eb0b1.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\745013db-1daa-4818-bb41-c675ca78b55d.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\745013db-1daa-4818-bb41-c675ca78b55d.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/745013db-1daa-4818-bb41-c675ca78b55d.png",
       "AssetKind": "All",
@@ -1423,10 +1442,29 @@
       "OriginalItemSpec": "wwwroot\\images\\745013db-1daa-4818-bb41-c675ca78b55d.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\783fd51f-9d7e-4214-8653-e97744840dd8.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\74a2f00a-7c38-4f32-befc-c59bb1730375.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/74a2f00a-7c38-4f32-befc-c59bb1730375.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\74a2f00a-7c38-4f32-befc-c59bb1730375.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\783fd51f-9d7e-4214-8653-e97744840dd8.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/783fd51f-9d7e-4214-8653-e97744840dd8.jpg",
       "AssetKind": "All",
@@ -1442,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\783fd51f-9d7e-4214-8653-e97744840dd8.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\79947691-c58c-4380-b9d5-2518024b9948.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\79947691-c58c-4380-b9d5-2518024b9948.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/79947691-c58c-4380-b9d5-2518024b9948.png",
       "AssetKind": "All",
@@ -1461,10 +1499,29 @@
       "OriginalItemSpec": "wwwroot\\images\\79947691-c58c-4380-b9d5-2518024b9948.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\7d806044-4077-448b-9ce4-7bde718e9494.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\79a80c10-ed49-4101-83a4-f9ada36139db.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/79a80c10-ed49-4101-83a4-f9ada36139db.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\79a80c10-ed49-4101-83a4-f9ada36139db.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\7d806044-4077-448b-9ce4-7bde718e9494.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/7d806044-4077-448b-9ce4-7bde718e9494.jpg",
       "AssetKind": "All",
@@ -1480,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7d806044-4077-448b-9ce4-7bde718e9494.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\7ed9f16f-0521-4a2d-9363-721cf63469c1.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\7ed9f16f-0521-4a2d-9363-721cf63469c1.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/7ed9f16f-0521-4a2d-9363-721cf63469c1.png",
       "AssetKind": "All",
@@ -1499,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7ed9f16f-0521-4a2d-9363-721cf63469c1.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\836d3a7b-8e93-4dc5-85f9-e40ac10baea5.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\836d3a7b-8e93-4dc5-85f9-e40ac10baea5.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/836d3a7b-8e93-4dc5-85f9-e40ac10baea5.png",
       "AssetKind": "All",
@@ -1518,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\836d3a7b-8e93-4dc5-85f9-e40ac10baea5.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\83d1bc0b-30b1-4010-82c9-db819da1684b.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\83d1bc0b-30b1-4010-82c9-db819da1684b.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/83d1bc0b-30b1-4010-82c9-db819da1684b.png",
       "AssetKind": "All",
@@ -1537,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\83d1bc0b-30b1-4010-82c9-db819da1684b.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8418ef40-370e-4d89-a7af-889c307333b9.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8418ef40-370e-4d89-a7af-889c307333b9.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8418ef40-370e-4d89-a7af-889c307333b9.jpg",
       "AssetKind": "All",
@@ -1556,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8418ef40-370e-4d89-a7af-889c307333b9.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8424e809-5634-4ce9-9f31-2ac242ef6b82.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8424e809-5634-4ce9-9f31-2ac242ef6b82.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8424e809-5634-4ce9-9f31-2ac242ef6b82.PNG",
       "AssetKind": "All",
@@ -1575,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8424e809-5634-4ce9-9f31-2ac242ef6b82.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\84747146-5c2c-45a3-ada4-2daddabd620a.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\84747146-5c2c-45a3-ada4-2daddabd620a.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/84747146-5c2c-45a3-ada4-2daddabd620a.png",
       "AssetKind": "All",
@@ -1594,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\84747146-5c2c-45a3-ada4-2daddabd620a.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\86f6e113-5fe0-43e9-9ba6-f1b822168170.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\86f6e113-5fe0-43e9-9ba6-f1b822168170.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/86f6e113-5fe0-43e9-9ba6-f1b822168170.jpg",
       "AssetKind": "All",
@@ -1613,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\86f6e113-5fe0-43e9-9ba6-f1b822168170.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8807f3b8-1901-48ce-9a4d-46e0826c288e.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8807f3b8-1901-48ce-9a4d-46e0826c288e.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8807f3b8-1901-48ce-9a4d-46e0826c288e.png",
       "AssetKind": "All",
@@ -1632,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8807f3b8-1901-48ce-9a4d-46e0826c288e.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\896e2b5c-f4a4-4480-a56f-f1d0576a38cb.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\896e2b5c-f4a4-4480-a56f-f1d0576a38cb.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/896e2b5c-f4a4-4480-a56f-f1d0576a38cb.PNG",
       "AssetKind": "All",
@@ -1651,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\896e2b5c-f4a4-4480-a56f-f1d0576a38cb.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8b124471-7e9b-4ffb-955e-7b83f24f5ede.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8b124471-7e9b-4ffb-955e-7b83f24f5ede.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8b124471-7e9b-4ffb-955e-7b83f24f5ede.jpg",
       "AssetKind": "All",
@@ -1670,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8b124471-7e9b-4ffb-955e-7b83f24f5ede.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8b703751-d196-4591-9df2-afe12148e0a7.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8b703751-d196-4591-9df2-afe12148e0a7.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8b703751-d196-4591-9df2-afe12148e0a7.PNG",
       "AssetKind": "All",
@@ -1689,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8b703751-d196-4591-9df2-afe12148e0a7.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8d0e9f88-e3ca-4c03-9211-818a457150cd.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8d0e9f88-e3ca-4c03-9211-818a457150cd.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8d0e9f88-e3ca-4c03-9211-818a457150cd.jpg",
       "AssetKind": "All",
@@ -1708,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8d0e9f88-e3ca-4c03-9211-818a457150cd.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8d5cefbd-699b-4a9e-9351-189bae042b7e.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8d5cefbd-699b-4a9e-9351-189bae042b7e.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8d5cefbd-699b-4a9e-9351-189bae042b7e.png",
       "AssetKind": "All",
@@ -1727,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8d5cefbd-699b-4a9e-9351-189bae042b7e.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8e5056ba-0a35-4aad-9c75-b9dc0c31edd6.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\8e5056ba-0a35-4aad-9c75-b9dc0c31edd6.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/8e5056ba-0a35-4aad-9c75-b9dc0c31edd6.jpg",
       "AssetKind": "All",
@@ -1746,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8e5056ba-0a35-4aad-9c75-b9dc0c31edd6.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\91447e2b-f599-4a5e-b960-07871710c8d4.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\91447e2b-f599-4a5e-b960-07871710c8d4.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/91447e2b-f599-4a5e-b960-07871710c8d4.jpg",
       "AssetKind": "All",
@@ -1765,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\91447e2b-f599-4a5e-b960-07871710c8d4.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\94170266-cfad-4483-bfa2-65e1816769d1.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\94170266-cfad-4483-bfa2-65e1816769d1.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/94170266-cfad-4483-bfa2-65e1816769d1.jpg",
       "AssetKind": "All",
@@ -1784,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\images\\94170266-cfad-4483-bfa2-65e1816769d1.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\995a73fb-1e82-476e-bef1-d75178bdfcb8.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\995a73fb-1e82-476e-bef1-d75178bdfcb8.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/995a73fb-1e82-476e-bef1-d75178bdfcb8.jpg",
       "AssetKind": "All",
@@ -1803,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\images\\995a73fb-1e82-476e-bef1-d75178bdfcb8.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9a03a960-41e5-4abc-809f-0e0e16daac11.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9a03a960-41e5-4abc-809f-0e0e16daac11.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/9a03a960-41e5-4abc-809f-0e0e16daac11.jpg",
       "AssetKind": "All",
@@ -1822,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9a03a960-41e5-4abc-809f-0e0e16daac11.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9c474b1e-f083-4ce1-acb9-d612fe0d5006.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9c474b1e-f083-4ce1-acb9-d612fe0d5006.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/9c474b1e-f083-4ce1-acb9-d612fe0d5006.png",
       "AssetKind": "All",
@@ -1841,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9c474b1e-f083-4ce1-acb9-d612fe0d5006.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9c680c9a-4d06-420b-84d8-8dbedce3c653.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9c680c9a-4d06-420b-84d8-8dbedce3c653.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/9c680c9a-4d06-420b-84d8-8dbedce3c653.PNG",
       "AssetKind": "All",
@@ -1860,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9c680c9a-4d06-420b-84d8-8dbedce3c653.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9e31a65d-93e8-4c0d-8dc4-7e8e13b1295f.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9e31a65d-93e8-4c0d-8dc4-7e8e13b1295f.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/9e31a65d-93e8-4c0d-8dc4-7e8e13b1295f.PNG",
       "AssetKind": "All",
@@ -1879,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9e31a65d-93e8-4c0d-8dc4-7e8e13b1295f.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9eee4752-5ff7-4d5b-ba4e-bc32a3febdfc.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\9eee4752-5ff7-4d5b-ba4e-bc32a3febdfc.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/9eee4752-5ff7-4d5b-ba4e-bc32a3febdfc.png",
       "AssetKind": "All",
@@ -1898,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9eee4752-5ff7-4d5b-ba4e-bc32a3febdfc.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a007135f-331d-4378-a4d2-a56d1bed47fc.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a007135f-331d-4378-a4d2-a56d1bed47fc.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a007135f-331d-4378-a4d2-a56d1bed47fc.jpg",
       "AssetKind": "All",
@@ -1917,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a007135f-331d-4378-a4d2-a56d1bed47fc.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg",
       "AssetKind": "All",
@@ -1936,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a0102078-d51a-47b2-a745-5ada8a2b9d8d.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a02d641b-8d54-4231-804e-f1bdde0f40e7.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a02d641b-8d54-4231-804e-f1bdde0f40e7.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a02d641b-8d54-4231-804e-f1bdde0f40e7.PNG",
       "AssetKind": "All",
@@ -1955,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a02d641b-8d54-4231-804e-f1bdde0f40e7.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg",
       "AssetKind": "All",
@@ -1974,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a10ab5bd-2cc4-426f-b83e-c884de74414a.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a1c2824d-6662-4bad-8a3c-73916253cc7d.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a1c2824d-6662-4bad-8a3c-73916253cc7d.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a1c2824d-6662-4bad-8a3c-73916253cc7d.PNG",
       "AssetKind": "All",
@@ -1993,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a1c2824d-6662-4bad-8a3c-73916253cc7d.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a22176be-b284-4e1c-a54e-45847e54bb45.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a22176be-b284-4e1c-a54e-45847e54bb45.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a22176be-b284-4e1c-a54e-45847e54bb45.png",
       "AssetKind": "All",
@@ -2012,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a22176be-b284-4e1c-a54e-45847e54bb45.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a35a7d68-fed1-4e60-8836-ab8cd5696170.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a35a7d68-fed1-4e60-8836-ab8cd5696170.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a35a7d68-fed1-4e60-8836-ab8cd5696170.jpg",
       "AssetKind": "All",
@@ -2031,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a35a7d68-fed1-4e60-8836-ab8cd5696170.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a662f3ce-4952-459c-9880-dec864861c7b.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a662f3ce-4952-459c-9880-dec864861c7b.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a662f3ce-4952-459c-9880-dec864861c7b.PNG",
       "AssetKind": "All",
@@ -2050,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a662f3ce-4952-459c-9880-dec864861c7b.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a6c80839-dd8b-48a5-8942-c66ffa3dac64.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a6c80839-dd8b-48a5-8942-c66ffa3dac64.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a6c80839-dd8b-48a5-8942-c66ffa3dac64.PNG",
       "AssetKind": "All",
@@ -2069,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a6c80839-dd8b-48a5-8942-c66ffa3dac64.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a71476aa-e086-402a-9df2-f21b3a1c6554.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a71476aa-e086-402a-9df2-f21b3a1c6554.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/a71476aa-e086-402a-9df2-f21b3a1c6554.jpg",
       "AssetKind": "All",
@@ -2088,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a71476aa-e086-402a-9df2-f21b3a1c6554.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\aa3f15b0-ec8b-4258-8dbf-89c884705416.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\aa3f15b0-ec8b-4258-8dbf-89c884705416.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/aa3f15b0-ec8b-4258-8dbf-89c884705416.png",
       "AssetKind": "All",
@@ -2107,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\aa3f15b0-ec8b-4258-8dbf-89c884705416.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ac0aabdc-5584-46a9-9377-992ab577fcf2.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ac0aabdc-5584-46a9-9377-992ab577fcf2.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/ac0aabdc-5584-46a9-9377-992ab577fcf2.PNG",
       "AssetKind": "All",
@@ -2126,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ac0aabdc-5584-46a9-9377-992ab577fcf2.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\acb11845-62f3-432e-a3f2-91f6dbcb373f.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\acb11845-62f3-432e-a3f2-91f6dbcb373f.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/acb11845-62f3-432e-a3f2-91f6dbcb373f.PNG",
       "AssetKind": "All",
@@ -2145,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\images\\acb11845-62f3-432e-a3f2-91f6dbcb373f.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ae8a0a75-ac3f-48d0-b0f8-466dd213148c.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ae8a0a75-ac3f-48d0-b0f8-466dd213148c.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/ae8a0a75-ac3f-48d0-b0f8-466dd213148c.jpg",
       "AssetKind": "All",
@@ -2164,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ae8a0a75-ac3f-48d0-b0f8-466dd213148c.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\b3f4dc81-ba56-48ba-8119-5ad825f40366.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\b3f4dc81-ba56-48ba-8119-5ad825f40366.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/b3f4dc81-ba56-48ba-8119-5ad825f40366.PNG",
       "AssetKind": "All",
@@ -2183,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b3f4dc81-ba56-48ba-8119-5ad825f40366.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\b9223270-cf64-4810-8b58-362271e599cb.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\b9223270-cf64-4810-8b58-362271e599cb.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/b9223270-cf64-4810-8b58-362271e599cb.PNG",
       "AssetKind": "All",
@@ -2202,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b9223270-cf64-4810-8b58-362271e599cb.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ba2d7b92-02e5-4e75-93f8-88e63923610c.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ba2d7b92-02e5-4e75-93f8-88e63923610c.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/ba2d7b92-02e5-4e75-93f8-88e63923610c.jpg",
       "AssetKind": "All",
@@ -2221,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ba2d7b92-02e5-4e75-93f8-88e63923610c.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\be3a4b2b-e315-4d61-9c81-baa5b7a52a01.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\be3a4b2b-e315-4d61-9c81-baa5b7a52a01.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/be3a4b2b-e315-4d61-9c81-baa5b7a52a01.PNG",
       "AssetKind": "All",
@@ -2240,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\images\\be3a4b2b-e315-4d61-9c81-baa5b7a52a01.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\bfac2d5d-ba09-4a4b-92c6-bbdbde26f826.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\bfac2d5d-ba09-4a4b-92c6-bbdbde26f826.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/bfac2d5d-ba09-4a4b-92c6-bbdbde26f826.PNG",
       "AssetKind": "All",
@@ -2259,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bfac2d5d-ba09-4a4b-92c6-bbdbde26f826.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\c4ba6dfa-6f48-4918-bb6a-8a3daca8f34e.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\c4ba6dfa-6f48-4918-bb6a-8a3daca8f34e.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/c4ba6dfa-6f48-4918-bb6a-8a3daca8f34e.jpg",
       "AssetKind": "All",
@@ -2278,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c4ba6dfa-6f48-4918-bb6a-8a3daca8f34e.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\c52b7a0a-7359-4c65-b296-f999e38d5b34.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\c52b7a0a-7359-4c65-b296-f999e38d5b34.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/c52b7a0a-7359-4c65-b296-f999e38d5b34.jpg",
       "AssetKind": "All",
@@ -2297,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c52b7a0a-7359-4c65-b296-f999e38d5b34.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\c64a6a37-cc54-4a0a-b026-65d59946aca0.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\c64a6a37-cc54-4a0a-b026-65d59946aca0.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/c64a6a37-cc54-4a0a-b026-65d59946aca0.PNG",
       "AssetKind": "All",
@@ -2316,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c64a6a37-cc54-4a0a-b026-65d59946aca0.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\cbf7bbad-57a2-4538-b589-fd7deb818e24.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\cbf7bbad-57a2-4538-b589-fd7deb818e24.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/cbf7bbad-57a2-4538-b589-fd7deb818e24.jpg",
       "AssetKind": "All",
@@ -2335,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cbf7bbad-57a2-4538-b589-fd7deb818e24.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\cd750cad-70a0-4af1-ad94-5ff8873f6258.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\cd750cad-70a0-4af1-ad94-5ff8873f6258.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/cd750cad-70a0-4af1-ad94-5ff8873f6258.jpg",
       "AssetKind": "All",
@@ -2354,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cd750cad-70a0-4af1-ad94-5ff8873f6258.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\d442bcc7-35f0-43eb-ac1c-1b8e5ad23b15.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\d442bcc7-35f0-43eb-ac1c-1b8e5ad23b15.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/d442bcc7-35f0-43eb-ac1c-1b8e5ad23b15.PNG",
       "AssetKind": "All",
@@ -2373,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d442bcc7-35f0-43eb-ac1c-1b8e5ad23b15.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\d4f02ab4-8349-4a81-8ca9-07edaf068701.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\d4f02ab4-8349-4a81-8ca9-07edaf068701.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/d4f02ab4-8349-4a81-8ca9-07edaf068701.PNG",
       "AssetKind": "All",
@@ -2392,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d4f02ab4-8349-4a81-8ca9-07edaf068701.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\da56cc00-46ac-44f6-9df6-687707ea24ee.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\da56cc00-46ac-44f6-9df6-687707ea24ee.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/da56cc00-46ac-44f6-9df6-687707ea24ee.jpg",
       "AssetKind": "All",
@@ -2411,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\images\\da56cc00-46ac-44f6-9df6-687707ea24ee.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\dba0ea99-49dd-43b6-a4c7-994b5b4fe934.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\dba0ea99-49dd-43b6-a4c7-994b5b4fe934.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/dba0ea99-49dd-43b6-a4c7-994b5b4fe934.jpg",
       "AssetKind": "All",
@@ -2430,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dba0ea99-49dd-43b6-a4c7-994b5b4fe934.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\dc7a91fa-e1ee-4086-927a-aa10ca313c3d.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\dc7a91fa-e1ee-4086-927a-aa10ca313c3d.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/dc7a91fa-e1ee-4086-927a-aa10ca313c3d.jpg",
       "AssetKind": "All",
@@ -2449,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dc7a91fa-e1ee-4086-927a-aa10ca313c3d.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\df384f70-fffb-4d4d-bd6d-452b7c7f83e6.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\df384f70-fffb-4d4d-bd6d-452b7c7f83e6.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/df384f70-fffb-4d4d-bd6d-452b7c7f83e6.png",
       "AssetKind": "All",
@@ -2468,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\images\\df384f70-fffb-4d4d-bd6d-452b7c7f83e6.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e15ea595-247a-414b-8367-8a0512fd79cb.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e15ea595-247a-414b-8367-8a0512fd79cb.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/e15ea595-247a-414b-8367-8a0512fd79cb.png",
       "AssetKind": "All",
@@ -2487,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e15ea595-247a-414b-8367-8a0512fd79cb.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e38d6fbe-8067-4660-bcc4-f0d7c8ddca31.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e38d6fbe-8067-4660-bcc4-f0d7c8ddca31.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/e38d6fbe-8067-4660-bcc4-f0d7c8ddca31.jpg",
       "AssetKind": "All",
@@ -2506,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e38d6fbe-8067-4660-bcc4-f0d7c8ddca31.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e6404a88-d238-41ac-8516-1f9f538d4bbe.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e6404a88-d238-41ac-8516-1f9f538d4bbe.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/e6404a88-d238-41ac-8516-1f9f538d4bbe.jpg",
       "AssetKind": "All",
@@ -2525,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e6404a88-d238-41ac-8516-1f9f538d4bbe.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e6b6b8ec-2754-4481-8b76-44460c957124.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e6b6b8ec-2754-4481-8b76-44460c957124.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/e6b6b8ec-2754-4481-8b76-44460c957124.png",
       "AssetKind": "All",
@@ -2544,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e6b6b8ec-2754-4481-8b76-44460c957124.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e81d3a55-4240-4c08-bc73-d8b95bfe5c37.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\e81d3a55-4240-4c08-bc73-d8b95bfe5c37.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/e81d3a55-4240-4c08-bc73-d8b95bfe5c37.jpg",
       "AssetKind": "All",
@@ -2563,10 +2620,29 @@
       "OriginalItemSpec": "wwwroot\\images\\e81d3a55-4240-4c08-bc73-d8b95bfe5c37.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\eaf0ecb3-5e2d-4d1f-a14d-43b4fdd40a8e.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ea4e06f4-6dd3-4911-b466-a31bced2f691.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/ea4e06f4-6dd3-4911-b466-a31bced2f691.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ea4e06f4-6dd3-4911-b466-a31bced2f691.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\eaf0ecb3-5e2d-4d1f-a14d-43b4fdd40a8e.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/eaf0ecb3-5e2d-4d1f-a14d-43b4fdd40a8e.jpg",
       "AssetKind": "All",
@@ -2582,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\images\\eaf0ecb3-5e2d-4d1f-a14d-43b4fdd40a8e.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ec5bfafd-84ac-4570-a551-7dcd0625c4d8.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\ec5bfafd-84ac-4570-a551-7dcd0625c4d8.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/ec5bfafd-84ac-4570-a551-7dcd0625c4d8.png",
       "AssetKind": "All",
@@ -2601,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ec5bfafd-84ac-4570-a551-7dcd0625c4d8.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f38703d6-4de4-48b0-a288-9e55f3ce1e4b.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f38703d6-4de4-48b0-a288-9e55f3ce1e4b.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/f38703d6-4de4-48b0-a288-9e55f3ce1e4b.png",
       "AssetKind": "All",
@@ -2620,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f38703d6-4de4-48b0-a288-9e55f3ce1e4b.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f44776f6-040e-4972-9a3d-51723cb8debb.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f44776f6-040e-4972-9a3d-51723cb8debb.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/f44776f6-040e-4972-9a3d-51723cb8debb.PNG",
       "AssetKind": "All",
@@ -2639,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f44776f6-040e-4972-9a3d-51723cb8debb.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f4ef018d-0a74-49e9-b7c9-d573071f3cfb.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f4ef018d-0a74-49e9-b7c9-d573071f3cfb.PNG",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/f4ef018d-0a74-49e9-b7c9-d573071f3cfb.PNG",
       "AssetKind": "All",
@@ -2658,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f4ef018d-0a74-49e9-b7c9-d573071f3cfb.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f5746fe7-427b-4ab4-b398-afc41c6853c9.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f5746fe7-427b-4ab4-b398-afc41c6853c9.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/f5746fe7-427b-4ab4-b398-afc41c6853c9.jpg",
       "AssetKind": "All",
@@ -2677,10 +2753,29 @@
       "OriginalItemSpec": "wwwroot\\images\\f5746fe7-427b-4ab4-b398-afc41c6853c9.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f84cef20-743f-48ef-8d63-1fa27828bbd8.PNG",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f635ae2a-2df0-43af-98ae-3912c97c25c8.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/f635ae2a-2df0-43af-98ae-3912c97c25c8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f635ae2a-2df0-43af-98ae-3912c97c25c8.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f84cef20-743f-48ef-8d63-1fa27828bbd8.PNG",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/f84cef20-743f-48ef-8d63-1fa27828bbd8.PNG",
       "AssetKind": "All",
@@ -2696,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f84cef20-743f-48ef-8d63-1fa27828bbd8.PNG"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f97ee7a4-e8bf-4d49-ac11-ad4610037a87.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\f97ee7a4-e8bf-4d49-ac11-ad4610037a87.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/f97ee7a4-e8bf-4d49-ac11-ad4610037a87.png",
       "AssetKind": "All",
@@ -2715,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f97ee7a4-e8bf-4d49-ac11-ad4610037a87.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fa5936a8-a9fd-432d-b462-da5980672b93.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fa5936a8-a9fd-432d-b462-da5980672b93.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/fa5936a8-a9fd-432d-b462-da5980672b93.jpg",
       "AssetKind": "All",
@@ -2734,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fa5936a8-a9fd-432d-b462-da5980672b93.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fbe622fc-7fad-4c05-bb49-8ae08d8064d1.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fbe622fc-7fad-4c05-bb49-8ae08d8064d1.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/fbe622fc-7fad-4c05-bb49-8ae08d8064d1.png",
       "AssetKind": "All",
@@ -2753,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fbe622fc-7fad-4c05-bb49-8ae08d8064d1.png"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fc30f455-396f-4676-b29c-02fa47995521.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fc30f455-396f-4676-b29c-02fa47995521.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/fc30f455-396f-4676-b29c-02fa47995521.jpg",
       "AssetKind": "All",
@@ -2772,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fc30f455-396f-4676-b29c-02fa47995521.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fd4de774-97fe-45c5-a8a0-689d19ef37f4.jpg",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fd4de774-97fe-45c5-a8a0-689d19ef37f4.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/fd4de774-97fe-45c5-a8a0-689d19ef37f4.jpg",
       "AssetKind": "All",
@@ -2791,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fd4de774-97fe-45c5-a8a0-689d19ef37f4.jpg"
     },
     {
-      "Identity": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fd6ee02e-9879-4a08-925e-42f03f31b263.png",
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\fd6ee02e-9879-4a08-925e-42f03f31b263.png",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TuF\\Desktop\\AAAAAA Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
       "BasePath": "_content/Book Haven",
       "RelativePath": "images/fd6ee02e-9879-4a08-925e-42f03f31b263.png",
       "AssetKind": "All",
@@ -2808,6 +2903,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\fd6ee02e-9879-4a08-925e-42f03f31b263.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\profile-pictures\\1_d5ebb569-3d53-42cd-896e-c668736770c8.png",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "profile-pictures/1_d5ebb569-3d53-42cd-896e-c668736770c8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile-pictures\\1_d5ebb569-3d53-42cd-896e-c668736770c8.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\profile-pictures\\2_03f73546-331f-4e7a-870e-d75d2f781d60.png",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "profile-pictures/2_03f73546-331f-4e7a-870e-d75d2f781d60.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile-pictures\\2_03f73546-331f-4e7a-870e-d75d2f781d60.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\profile-pictures\\default-profile.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "profile-pictures/default-profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile-pictures\\default-profile.jpg"
     }
   ]
 }

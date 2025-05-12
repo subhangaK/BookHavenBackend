@@ -5,6 +5,7 @@ using System.Text;
 using Book_Haven;
 using Book_Haven.Entities;
 using Book_Haven.Services;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +21,7 @@ builder.Services.AddSingleton<IEmailService, EmailService>();
 builder.Services.AddLogging(logging =>
 {
     logging.AddConsole();
-    logging.SetMinimumLevel(LogLevel.Debug); // Ensure debug logs are captured
+    logging.SetMinimumLevel(LogLevel.Debug);
 });
 
 builder.Services.AddCors(options =>
