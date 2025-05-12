@@ -490,3 +490,9 @@ C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.pdb
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\Book Haven.genruntimeconfig.cache
 C:\Users\OMEN\Documents\islington\Book Haven\Book Haven Backend\BookHavenBackend\Book Haven\obj\Debug\net8.0\ref\Book Haven.dll
+C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\MailKit.dll
+C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\MimeKit.dll
+C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\TuF\Desktop\AAAAAA Backend\BookHavenBackend\Book Haven\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class database : Migration
+    public partial class BookHaven : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -187,7 +187,9 @@ namespace Book_Haven.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UserId = table.Column<long>(type: "bigint", nullable: false),
                     BookId = table.Column<long>(type: "bigint", nullable: false),
-                    DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    Quantity = table.Column<int>(type: "integer", nullable: false),
+                    IsRemoved = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -217,7 +219,9 @@ namespace Book_Haven.Migrations
                     DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     DiscountPercentage = table.Column<decimal>(type: "numeric", nullable: false),
                     ClaimCode = table.Column<string>(type: "text", nullable: false),
-                    IsPurchased = table.Column<bool>(type: "boolean", nullable: false)
+                    IsPurchased = table.Column<bool>(type: "boolean", nullable: false),
+                    IsCancelled = table.Column<bool>(type: "boolean", nullable: false),
+                    Quantity = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -300,7 +304,7 @@ namespace Book_Haven.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1L, 0, "d9d6a23c-0a81-405d-b235-aae9b7330f14", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEE2z3ezW9Uw6oRG37t63cvvWqItQPS8QyTX8xQE7TG4iCRWObK55XHUIrta0Yr0LTg==", null, false, "6c4cf10f-828d-4b45-91c4-a486d53c1db4", false, "admin" });
+                values: new object[] { 1L, 0, "72b13623-ade5-4726-aec9-094f3312b0a6", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAECnqQ69HtuPAIA3tNj3tlFFtx5rCk8r6ahSzwTzbzwF4UGshJQhVncLzmt7XAIdNpw==", null, false, "6cea64fe-a1fb-48d8-bbaf-df896f4b7ac8", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
