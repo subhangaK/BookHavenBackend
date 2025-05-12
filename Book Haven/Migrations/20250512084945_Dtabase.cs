@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class Database : Migration
+    public partial class Dtabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -35,6 +35,7 @@ namespace Book_Haven.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    ProfilePicture = table.Column<string>(type: "text", nullable: true),
                     UserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
@@ -189,7 +190,9 @@ namespace Book_Haven.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UserId = table.Column<long>(type: "bigint", nullable: false),
                     BookId = table.Column<long>(type: "bigint", nullable: false),
-                    DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    Quantity = table.Column<int>(type: "integer", nullable: false),
+                    IsRemoved = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -219,7 +222,9 @@ namespace Book_Haven.Migrations
                     DateAdded = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     DiscountPercentage = table.Column<decimal>(type: "numeric", nullable: false),
                     ClaimCode = table.Column<string>(type: "text", nullable: false),
-                    IsPurchased = table.Column<bool>(type: "boolean", nullable: false)
+                    IsPurchased = table.Column<bool>(type: "boolean", nullable: false),
+                    IsCancelled = table.Column<bool>(type: "boolean", nullable: false),
+                    Quantity = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -305,11 +310,11 @@ namespace Book_Haven.Migrations
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "ProfilePicture", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { 1L, 0, "e6f02ae2-d373-477b-bc4f-006ce0d09e69", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEOMB3u0v6R+wmb/gm/iuEuNEx7tljO0lwwmJjFKgXqBHrcsi1LRMqGiE8CENdWhoOw==", null, false, "9368f7d5-faad-4d13-a99c-eb98d09b504f", false, "admin" },
-                    { 2L, 0, "c5ccf728-a15d-4fcb-a618-d75e6dc00ce8", "staff@gmail.com", true, false, null, "STAFF@GMAIL.COM", "STAFF", "AQAAAAIAAYagAAAAEOs4vItIvqXwSQjY1YzPsNtqcy30XSQCJjeh9HHOrpnrV7fyTzZ3bF5GiSM7HjYwUw==", null, false, "9a954645-70f8-4462-8405-7a172182144f", false, "staff" }
+                    { 1L, 0, "895c7743-fc09-4c73-a5b9-aab76ac34629", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEApmdCjAmQjywmaLEHoiPMLQwqHb+NZiSCeAm22Aq3Orcxeh1UC2IaJo74e6Pd1OPw==", null, false, null, "5699f397-b81e-4bdb-acab-325495eef0fd", false, "admin" },
+                    { 2L, 0, "122a648c-e69a-4024-852e-eaa37d1f7fd7", "staff@gmail.com", true, false, null, "STAFF@GMAIL.COM", "STAFF", "AQAAAAIAAYagAAAAEFfn2qWtLXQ1z3wzrl2z0wvOewq31XI/jEXZayFjIEsGHUgkIXzmbH+2qI9PSrmMXA==", null, false, null, "d2619247-ddc2-44fc-a9fc-163e97cf3d3d", false, "staff" }
                 });
 
             migrationBuilder.InsertData(

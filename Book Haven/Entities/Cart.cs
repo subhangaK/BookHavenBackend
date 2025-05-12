@@ -21,5 +21,10 @@ namespace Book_Haven.Entities
         public Book? Book { get; set; }
 
         public DateTime DateAdded { get; set; } = DateTime.UtcNow;
+
+        [Required]
+        public int Quantity { get; set; } = 1; // New property for quantity, default to 1
+
+        public bool IsRemoved { get; set; } = false;
     }
 }

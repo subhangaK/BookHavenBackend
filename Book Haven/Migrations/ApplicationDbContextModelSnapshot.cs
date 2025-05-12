@@ -79,6 +79,12 @@ namespace Book_Haven.Migrations
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
+
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
 
@@ -113,8 +119,14 @@ namespace Book_Haven.Migrations
                     b.Property<decimal>("DiscountPercentage")
                         .HasColumnType("numeric");
 
+                    b.Property<bool>("IsCancelled")
+                        .HasColumnType("boolean");
+
                     b.Property<bool>("IsPurchased")
                         .HasColumnType("boolean");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
 
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
@@ -251,6 +263,9 @@ namespace Book_Haven.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("boolean");
 
+                    b.Property<string>("ProfilePicture")
+                        .HasColumnType("text");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
@@ -277,15 +292,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e6f02ae2-d373-477b-bc4f-006ce0d09e69",
+                            ConcurrencyStamp = "895c7743-fc09-4c73-a5b9-aab76ac34629",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOMB3u0v6R+wmb/gm/iuEuNEx7tljO0lwwmJjFKgXqBHrcsi1LRMqGiE8CENdWhoOw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEApmdCjAmQjywmaLEHoiPMLQwqHb+NZiSCeAm22Aq3Orcxeh1UC2IaJo74e6Pd1OPw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9368f7d5-faad-4d13-a99c-eb98d09b504f",
+                            SecurityStamp = "5699f397-b81e-4bdb-acab-325495eef0fd",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         },
@@ -293,15 +308,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 2L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c5ccf728-a15d-4fcb-a618-d75e6dc00ce8",
+                            ConcurrencyStamp = "122a648c-e69a-4024-852e-eaa37d1f7fd7",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "STAFF@GMAIL.COM",
                             NormalizedUserName = "STAFF",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOs4vItIvqXwSQjY1YzPsNtqcy30XSQCJjeh9HHOrpnrV7fyTzZ3bF5GiSM7HjYwUw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFfn2qWtLXQ1z3wzrl2z0wvOewq31XI/jEXZayFjIEsGHUgkIXzmbH+2qI9PSrmMXA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9a954645-70f8-4462-8405-7a172182144f",
+                            SecurityStamp = "d2619247-ddc2-44fc-a9fc-163e97cf3d3d",
                             TwoFactorEnabled = false,
                             UserName = "staff"
                         });
