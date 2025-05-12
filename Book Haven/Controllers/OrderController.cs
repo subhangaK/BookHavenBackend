@@ -211,7 +211,11 @@ namespace Book_Haven.Controllers
                     <p><strong>Author:</strong> {order.Book?.Author ?? "Unknown"}</p>
                     <p><strong>Price:</strong> ${order.Book?.Price:F2}</p>
                     <p><strong>Discount:</strong> {order.DiscountPercentage * 100:F0}%</p>
+<<<<<<< HEAD
                     <p><strong>Final Price:</strong> ${(order.Book?.Price * order.Quantity * (1 - order.DiscountPercentage)):F2}</p>
+=======
+                    <p><strong>Final Price:</strong> ${(order.Book?.Price * (1 - order.DiscountPercentage)):F2}</p>
+>>>>>>> d6361e462568b3e0b0834d6d08042c713c8bd869
                     <p><strong>Date Approved:</strong> {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss}</p>
                     <p>Your order has been successfully approved. Thank you for shopping with Book Haven!</p>";
 

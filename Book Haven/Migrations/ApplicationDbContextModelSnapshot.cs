@@ -292,15 +292,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0989cfb8-63d6-40d6-b833-a54c5bd77794",
+                            ConcurrencyStamp = "af21f387-2c04-4d6b-8ca6-fcbe8a09cd18",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGYQ4mXkjp1Q8RaNFlNbOM/ODvmqBCyWqy0QmU1+JWrup7c+PPApoXFYisIT9CWITQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKbnxhC7BtEp1QTxq71cIDaM69LFMRwD1tU+/kcQ07kk93+lZqrAchBmZrSTXWM0RQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "06dce9a8-df28-463a-9919-190d28425321",
+                            SecurityStamp = "9f213a19-921f-4abc-adb4-b09d5c1ceaba",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         },
@@ -308,15 +308,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 2L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2715d594-c574-4120-a208-f9ef5170c0f8",
+                            ConcurrencyStamp = "df04c96f-cdcf-45ca-ad90-2c29c43db26d",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "STAFF@GMAIL.COM",
                             NormalizedUserName = "STAFF",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJYRntEYF+Lp7BAdye34e5shxZRuqqPHHEbleUD/yXHQIkZx7HlPiDnaBFj+68pXDw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFKErOAF3ovndzPH4XHXmPX8iGo1gv/jQ/qLEwVI+Cnlc7qrAoOPf2x26Rg2GpFSvA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c770201f-08ea-4bbb-96ce-3be5e62949d2",
+                            SecurityStamp = "2bf537a6-75e3-4bb4-bf20-186add90aaf1",
                             TwoFactorEnabled = false,
                             UserName = "staff"
                         });
