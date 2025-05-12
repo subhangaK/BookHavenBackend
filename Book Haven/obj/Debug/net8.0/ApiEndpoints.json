@@ -220,13 +220,50 @@
     "ContainingType": "Book_Haven.Controllers.CartController",
     "Method": "RemoveFromCart",
     "RelativePath": "api/Cart/remove/{bookId}",
-    "HttpMethod": "DELETE",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "bookId",
         "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.CartController",
+    "Method": "RestoreToCart",
+    "RelativePath": "api/Cart/restore/{bookId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.CartController",
+    "Method": "UpdateQuantity",
+    "RelativePath": "api/Cart/update-quantity/{bookId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Book_Haven.Controllers.UpdateQuantityDto",
         "IsRequired": true
       }
     ],
@@ -270,25 +307,9 @@
   },
   {
     "ContainingType": "Book_Haven.Controllers.OrderController",
-    "Method": "ApproveOrder",
-    "RelativePath": "api/Order/approve",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "Book_Haven.Controllers.ApproveOrderDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Book_Haven.Controllers.OrderController",
-    "Method": "RemoveFromOrder",
-    "RelativePath": "api/Order/remove/{bookId}",
-    "HttpMethod": "DELETE",
+    "Method": "CancelOrder",
+    "RelativePath": "api/Order/cancel/{bookId}",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [

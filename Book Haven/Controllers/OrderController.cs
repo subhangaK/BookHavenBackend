@@ -65,6 +65,15 @@ namespace Book_Haven.Controllers
                 return BadRequest("Book already in order");
             }
 
+            // Fetch the cart item to get the quantity
+            var cartItem = await _context.Carts
+                .FirstOrDefaultAsync(c => c.UserId == userId && c.BookId == dto.BookId && !c.IsRemoved);
+            if (cartItem == null)
+            {
+                _logger.LogWarning("Cart item not found for user {UserId} and book {BookId}", userId, dto.BookId);
+                return BadRequest("Book not found in cart");
+            }
+
             var orderCountBefore = await _context.Orders.CountAsync(o => o.UserId == userId);
             var claimCode = Guid.NewGuid().ToString("N").Substring(0, 12).ToUpper();
             _logger.LogInformation("Generated ClaimCode: {ClaimCode}", claimCode);
@@ -76,7 +85,9 @@ namespace Book_Haven.Controllers
                 DateAdded = DateTime.UtcNow,
                 ClaimCode = claimCode,
                 DiscountPercentage = 0m,
-                IsPurchased = false
+                IsPurchased = false,
+                IsCancelled = false,
+                Quantity = cartItem.Quantity // Set the quantity from the cart
             };
 
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -112,14 +123,15 @@ namespace Book_Haven.Controllers
                 .CountAsync(o => o.UserId == userId && o.DateAdded.Date == DateTime.UtcNow.Date);
 
             var billDetails = $@"<h2>Order Confirmation - Book Haven</h2>
-                <p><strong>Claim Code:</strong> {claimCode}</p>
-                <p><strong>Book:</strong> {book.Title}</p>
-                <p><strong>Author:</strong> {book.Author}</p>
-                <p><strong>Price:</strong> ${book.Price:F2}</p>
-                <p><strong>Discount:</strong> {orderItem.DiscountPercentage * 100:F0}%</p>
-                <p><strong>Final Price:</strong> ${(book.Price * (1 - orderItem.DiscountPercentage)):F2}</p>
-                <p><strong>Date:</strong> {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss}</p>
-                <p>Thank you for shopping with Book Haven!</p>";
+        <p><strong>Claim Code:</strong> {claimCode}</p>
+        <p><strong>Book:</strong> {book.Title}</p>
+        <p><strong>Author:</strong> {book.Author}</p>
+        <p><strong>Price:</strong> ${book.Price:F2}</p>
+        <p><strong>Quantity:</strong> {orderItem.Quantity}</p>
+        <p><strong>Discount:</strong> {orderItem.DiscountPercentage * 100:F0}%</p>
+        <p><strong>Final Price:</strong> ${(book.Price * orderItem.Quantity * (1 - orderItem.DiscountPercentage)):F2}</p>
+        <p><strong>Date:</strong> {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss}</p>
+        <p>Thank you for shopping with Book Haven!</p>";
 
             bool emailSent = false;
             try
@@ -144,84 +156,12 @@ namespace Book_Haven.Controllers
             });
         }
 
-        [HttpPost("approve")]
-        [Authorize(Roles = "Admin,SuperAdmin")]
-        public async Task<IActionResult> ApproveOrder([FromBody] ApproveOrderDto dto)
+        [HttpPatch("cancel/{bookId}")]
+        public async Task<IActionResult> CancelOrder(long bookId)
         {
-            if (string.IsNullOrEmpty(dto.ClaimCode))
-            {
-                _logger.LogWarning("Invalid claim code provided");
-                return BadRequest("Claim code is required");
-            }
-
-            var order = await _context.Orders
-                .Include(o => o.Book)
-                .Include(o => o.User)
-                .FirstOrDefaultAsync(o => o.ClaimCode == dto.ClaimCode);
-            if (order == null)
-            {
-                _logger.LogWarning("Order not found for claim code: {ClaimCode}", dto.ClaimCode);
-                return NotFound("Order not found");
-            }
-
-            if (order.IsPurchased)
-            {
-                _logger.LogWarning("Order already purchased for claim code: {ClaimCode}", dto.ClaimCode);
-                return BadRequest("Order already marked as purchased");
-            }
-
-            try
-            {
-                order.IsPurchased = true;
-                await _context.SaveChangesAsync();
-                _logger.LogInformation("Order approved for claim code: {ClaimCode}", dto.ClaimCode);
-
-                var billDetails = $@"<h2>Order Approved - Book Haven</h2>
-                    <p><strong>Claim Code:</strong> {order.ClaimCode}</p>
-                    <p><strong>Book:</strong> {order.Book?.Title ?? "Unknown"}</p>
-                    <p><strong>Author:</strong> {order.Book?.Author ?? "Unknown"}</p>
-                    <p><strong>Price:</strong> ${order.Book?.Price:F2}</p>
-                    <p><strong>Discount:</strong> {order.DiscountPercentage * 100:F0}%</p>
-                    <p><strong>Final Price:</strong> ${(order.Book?.Price * (1 - order.DiscountPercentage)):F2}</p>
-                    <p><strong>Date Approved:</strong> {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss}</p>
-                    <p>Your order has been successfully approved. Thank you for shopping with Book Haven!</p>";
-
-                try
-                {
-                    await _emailService.SendEmailAsync(
-                        order.User?.Email ?? "unknown@example.com",
-                        "Your Book Haven Order Has Been Approved",
-                        billDetails
-                    );
-                    _logger.LogInformation("Approval email sent successfully to {Email}", order.User?.Email);
-                }
-                catch (Exception ex)
-                {
-                    _logger.LogError(ex, "Failed to send approval email to {Email}", order.User?.Email);
-                }
-
-                return Ok(new { message = "Order marked as purchased successfully" });
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Failed to approve order for claim code: {ClaimCode}", dto.ClaimCode);
-                return StatusCode(500, "An error occurred while processing the order");
-            }
-        }
-
-        [HttpDelete("remove/{bookId}")]
-        public async Task<IActionResult> RemoveFromOrder(long bookId)
-        {
-            if (bookId <= 0)
-            {
-                _logger.LogWarning("Invalid book ID: {BookId}", bookId);
-                return BadRequest("Invalid book ID");
-            }
-
             var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrEmpty(userIdString) || !long.TryParse(userIdString, out var userId))
             {
-                _logger.LogWarning("Unauthorized: Invalid or missing user ID");
                 return Unauthorized("User not authenticated or invalid token.");
             }
 
@@ -229,24 +169,20 @@ namespace Book_Haven.Controllers
                 .FirstOrDefaultAsync(o => o.UserId == userId && o.BookId == bookId);
             if (orderItem == null)
             {
-                _logger.LogWarning("Book {BookId} not in order for user {UserId}", bookId, userId);
-                return NotFound("Book not in order");
+                return NotFound("Order not found");
             }
 
-            try
+            if (orderItem.IsCancelled)
             {
-                _context.Orders.Remove(orderItem);
-                await _context.SaveChangesAsync();
-                _logger.LogInformation("Book {BookId} removed from order for user {UserId}", bookId, userId);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Failed to remove book {BookId} from order for user {UserId}", bookId, userId);
-                return StatusCode(500, "An error occurred while removing the book from your order.");
+                return BadRequest("Order is already cancelled");
             }
 
-            return Ok(new { message = "Book removed from order successfully" });
+            orderItem.IsCancelled = true;
+            await _context.SaveChangesAsync();
+
+            return Ok("Order cancelled");
         }
+
 
         [HttpGet("with-discount")]
         public async Task<IActionResult> GetOrderWithDiscount()
@@ -269,7 +205,9 @@ namespace Book_Haven.Controllers
                     o.Book.Price,
                     o.Book.ImagePath,
                     o.DiscountPercentage,
-                    o.IsPurchased
+                    o.IsPurchased,
+                    o.IsCancelled,
+                    o.Quantity
                 })
                 .ToListAsync();
 

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250512054650_AddProfilePictureToUser")]
-    partial class AddProfilePictureToUser
+    [Migration("20250512075138_updated")]
+    partial class updated
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -82,6 +82,12 @@ namespace Book_Haven.Migrations
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
+
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
 
@@ -116,8 +122,14 @@ namespace Book_Haven.Migrations
                     b.Property<decimal>("DiscountPercentage")
                         .HasColumnType("numeric");
 
+                    b.Property<bool>("IsCancelled")
+                        .HasColumnType("boolean");
+
                     b.Property<bool>("IsPurchased")
                         .HasColumnType("boolean");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
 
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
@@ -277,15 +289,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0f01310a-485c-415c-89f5-cee1e00a2b85",
+                            ConcurrencyStamp = "4b3d76aa-a68a-454d-8f77-c15b3c7d63ec",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAECfkjCz2UzhB/4An1ZDJwM7AVAgZYvGPjvFRBmcjc4/qpXsTRCYwamp3CvYAgnbjAQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ6aDFpwpCK8VKH4a1lSnEAX4od55Gt5/GyeqrdIgN++JDN1CL+qzOISdDvyXPPgqA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1cdb4ac2-4d74-41eb-96ba-fd67ef28e6f7",
+                            SecurityStamp = "ed6a19b4-617d-4058-8712-0906bec7bea0",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
