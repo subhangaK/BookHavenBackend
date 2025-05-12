@@ -209,6 +209,12 @@ namespace Book_Haven.Migrations
                             Id = 1L,
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            Name = "Staff",
+                            NormalizedName = "STAFF"
                         });
                 });
 
@@ -286,17 +292,33 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4b3d76aa-a68a-454d-8f77-c15b3c7d63ec",
+                            ConcurrencyStamp = "49ff3f8f-e36f-4fc9-afa6-3f84247061e3",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJ6aDFpwpCK8VKH4a1lSnEAX4od55Gt5/GyeqrdIgN++JDN1CL+qzOISdDvyXPPgqA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOD/cNbckkdY2ioW4uOMKlig2PVPxMgq5TvYX6dckK1vF55RWuRUbhwMvTLyAEnidg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ed6a19b4-617d-4058-8712-0906bec7bea0",
+                            SecurityStamp = "d310dd88-030a-4746-b111-379c1e4f157c",
                             TwoFactorEnabled = false,
                             UserName = "admin"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "1112906a-7045-4cbf-94aa-1e9b2c7c966c",
+                            Email = "staff@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "STAFF@GMAIL.COM",
+                            NormalizedUserName = "STAFF",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ12PYw92P6b4RyogKHdbegC1D54VsZNOOwwWYs3LRREy9eHKk+Ly9fGnwq40osQ5A==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "634561ec-4da3-4c74-9386-c775ac674d34",
+                            TwoFactorEnabled = false,
+                            UserName = "staff"
                         });
                 });
 
@@ -415,6 +437,11 @@ namespace Book_Haven.Migrations
                         {
                             UserId = 1L,
                             RoleId = 1L
+                        },
+                        new
+                        {
+                            UserId = 2L,
+                            RoleId = 2L
                         });
                 });
 
