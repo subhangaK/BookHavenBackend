@@ -4,10 +4,12 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class updated : Migration
+    public partial class Dtabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -300,17 +302,29 @@ namespace Book_Haven.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { 1L, null, "SuperAdmin", "SUPERADMIN" });
+                values: new object[,]
+                {
+                    { 1L, null, "SuperAdmin", "SUPERADMIN" },
+                    { 2L, null, "Staff", "STAFF" }
+                });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "ProfilePicture", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1L, 0, "4b3d76aa-a68a-454d-8f77-c15b3c7d63ec", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEJ6aDFpwpCK8VKH4a1lSnEAX4od55Gt5/GyeqrdIgN++JDN1CL+qzOISdDvyXPPgqA==", null, false, null, "ed6a19b4-617d-4058-8712-0906bec7bea0", false, "admin" });
+                values: new object[,]
+                {
+                    { 1L, 0, "895c7743-fc09-4c73-a5b9-aab76ac34629", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEApmdCjAmQjywmaLEHoiPMLQwqHb+NZiSCeAm22Aq3Orcxeh1UC2IaJo74e6Pd1OPw==", null, false, null, "5699f397-b81e-4bdb-acab-325495eef0fd", false, "admin" },
+                    { 2L, 0, "122a648c-e69a-4024-852e-eaa37d1f7fd7", "staff@gmail.com", true, false, null, "STAFF@GMAIL.COM", "STAFF", "AQAAAAIAAYagAAAAEFfn2qWtLXQ1z3wzrl2z0wvOewq31XI/jEXZayFjIEsGHUgkIXzmbH+2qI9PSrmMXA==", null, false, null, "d2619247-ddc2-44fc-a9fc-163e97cf3d3d", false, "staff" }
+                });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { 1L, 1L });
+                values: new object[,]
+                {
+                    { 1L, 1L },
+                    { 2L, 2L }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

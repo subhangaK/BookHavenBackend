@@ -307,6 +307,22 @@
   },
   {
     "ContainingType": "Book_Haven.Controllers.OrderController",
+    "Method": "ApproveOrder",
+    "RelativePath": "api/Order/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Book_Haven.Controllers.ApproveOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.OrderController",
     "Method": "CancelOrder",
     "RelativePath": "api/Order/cancel/{bookId}",
     "HttpMethod": "PATCH",
@@ -316,6 +332,38 @@
       {
         "Name": "bookId",
         "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.OrderController",
+    "Method": "RemoveFromOrder",
+    "RelativePath": "api/Order/remove/{bookId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.OrderController",
+    "Method": "UpdateClaimCode",
+    "RelativePath": "api/Order/update-claim-code",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Book_Haven.Controllers.UpdateClaimCodeDto",
         "IsRequired": true
       }
     ],

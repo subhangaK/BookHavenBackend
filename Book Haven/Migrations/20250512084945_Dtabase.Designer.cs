@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250512075138_updated")]
-    partial class updated
+    [Migration("20250512084945_Dtabase")]
+    partial class Dtabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -212,6 +212,12 @@ namespace Book_Haven.Migrations
                             Id = 1L,
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            Name = "Staff",
+                            NormalizedName = "STAFF"
                         });
                 });
 
@@ -289,17 +295,33 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4b3d76aa-a68a-454d-8f77-c15b3c7d63ec",
+                            ConcurrencyStamp = "895c7743-fc09-4c73-a5b9-aab76ac34629",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJ6aDFpwpCK8VKH4a1lSnEAX4od55Gt5/GyeqrdIgN++JDN1CL+qzOISdDvyXPPgqA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEApmdCjAmQjywmaLEHoiPMLQwqHb+NZiSCeAm22Aq3Orcxeh1UC2IaJo74e6Pd1OPw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ed6a19b4-617d-4058-8712-0906bec7bea0",
+                            SecurityStamp = "5699f397-b81e-4bdb-acab-325495eef0fd",
                             TwoFactorEnabled = false,
                             UserName = "admin"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "122a648c-e69a-4024-852e-eaa37d1f7fd7",
+                            Email = "staff@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "STAFF@GMAIL.COM",
+                            NormalizedUserName = "STAFF",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFfn2qWtLXQ1z3wzrl2z0wvOewq31XI/jEXZayFjIEsGHUgkIXzmbH+2qI9PSrmMXA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d2619247-ddc2-44fc-a9fc-163e97cf3d3d",
+                            TwoFactorEnabled = false,
+                            UserName = "staff"
                         });
                 });
 
@@ -418,6 +440,11 @@ namespace Book_Haven.Migrations
                         {
                             UserId = 1L,
                             RoleId = 1L
+                        },
+                        new
+                        {
+                            UserId = 2L,
+                            RoleId = 2L
                         });
                 });
 
