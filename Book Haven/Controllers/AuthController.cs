@@ -209,5 +209,14 @@ namespace Book_Haven.Controllers
             var books = await _context.Books.ToListAsync();
             return Ok(books);
         }
+
+        [HttpGet("contacts")]
+        public async Task<IActionResult> GetAllContacts()
+        {
+            var contacts = await _context.Contacts
+                .ToListAsync();
+            return Ok(contacts);
+        }
+
     }
 }

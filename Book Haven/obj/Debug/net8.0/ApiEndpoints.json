@@ -160,6 +160,16 @@
   },
   {
     "ContainingType": "Book_Haven.Controllers.AuthController",
+    "Method": "GetAllContacts",
+    "RelativePath": "api/Auth/contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -264,6 +274,22 @@
       {
         "Name": "dto",
         "Type": "Book_Haven.Controllers.UpdateQuantityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.ContactController",
+    "Method": "SubmitContact",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactDto",
+        "Type": "Book_Haven.DTO.ContactDTO",
         "IsRequired": true
       }
     ],
