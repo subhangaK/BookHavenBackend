@@ -4,6 +4,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
@@ -237,6 +239,35 @@ namespace Book_Haven.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Reviews",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    UserId = table.Column<long>(type: "bigint", nullable: false),
+                    BookId = table.Column<long>(type: "bigint", nullable: false),
+                    Rating = table.Column<int>(type: "integer", nullable: false),
+                    Comment = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: false),
+                    DatePosted = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Reviews", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Reviews_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Reviews_Books_BookId",
+                        column: x => x.BookId,
+                        principalTable: "Books",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Wishlists",
                 columns: table => new
                 {
@@ -266,17 +297,29 @@ namespace Book_Haven.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { 1L, null, "SuperAdmin", "SUPERADMIN" });
+                values: new object[,]
+                {
+                    { 1L, null, "SuperAdmin", "SUPERADMIN" },
+                    { 2L, null, "Staff", "STAFF" }
+                });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1L, 0, "2f0b194d-e74b-40d9-8766-3afddfa9800c", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEJF2abt2hXRZf4zMwwT2zq6sQlYyaOFVN/6TNr2lr7o250dzOqAqXt6LccnvMPinOQ==", null, false, "7c52ec99-47c7-4027-a188-d43439671ec1", false, "admin" });
+                values: new object[,]
+                {
+                    { 1L, 0, "e6f02ae2-d373-477b-bc4f-006ce0d09e69", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEOMB3u0v6R+wmb/gm/iuEuNEx7tljO0lwwmJjFKgXqBHrcsi1LRMqGiE8CENdWhoOw==", null, false, "9368f7d5-faad-4d13-a99c-eb98d09b504f", false, "admin" },
+                    { 2L, 0, "c5ccf728-a15d-4fcb-a618-d75e6dc00ce8", "staff@gmail.com", true, false, null, "STAFF@GMAIL.COM", "STAFF", "AQAAAAIAAYagAAAAEOs4vItIvqXwSQjY1YzPsNtqcy30XSQCJjeh9HHOrpnrV7fyTzZ3bF5GiSM7HjYwUw==", null, false, "9a954645-70f8-4462-8405-7a172182144f", false, "staff" }
+                });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { 1L, 1L });
+                values: new object[,]
+                {
+                    { 1L, 1L },
+                    { 2L, 2L }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -338,6 +381,16 @@ namespace Book_Haven.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
+                name: "IX_Reviews_BookId",
+                table: "Reviews",
+                column: "BookId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Reviews_UserId",
+                table: "Reviews",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Wishlists_BookId",
                 table: "Wishlists",
                 column: "BookId");
@@ -372,6 +425,9 @@ namespace Book_Haven.Migrations
 
             migrationBuilder.DropTable(
                 name: "Orders");
+
+            migrationBuilder.DropTable(
+                name: "Reviews");
 
             migrationBuilder.DropTable(
                 name: "Wishlists");

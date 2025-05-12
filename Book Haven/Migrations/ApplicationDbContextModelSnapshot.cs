@@ -129,6 +129,40 @@ namespace Book_Haven.Migrations
                     b.ToTable("Orders");
                 });
 
+            modelBuilder.Entity("Book_Haven.Entities.Review", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("BookId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<DateTime>("DatePosted")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("integer");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Reviews");
+                });
+
             modelBuilder.Entity("Book_Haven.Entities.Roles", b =>
                 {
                     b.Property<long>("Id")
@@ -163,6 +197,12 @@ namespace Book_Haven.Migrations
                             Id = 1L,
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            Name = "Staff",
+                            NormalizedName = "STAFF"
                         });
                 });
 
@@ -237,17 +277,33 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2f0b194d-e74b-40d9-8766-3afddfa9800c",
+                            ConcurrencyStamp = "e6f02ae2-d373-477b-bc4f-006ce0d09e69",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJF2abt2hXRZf4zMwwT2zq6sQlYyaOFVN/6TNr2lr7o250dzOqAqXt6LccnvMPinOQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOMB3u0v6R+wmb/gm/iuEuNEx7tljO0lwwmJjFKgXqBHrcsi1LRMqGiE8CENdWhoOw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7c52ec99-47c7-4027-a188-d43439671ec1",
+                            SecurityStamp = "9368f7d5-faad-4d13-a99c-eb98d09b504f",
                             TwoFactorEnabled = false,
                             UserName = "admin"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "c5ccf728-a15d-4fcb-a618-d75e6dc00ce8",
+                            Email = "staff@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "STAFF@GMAIL.COM",
+                            NormalizedUserName = "STAFF",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOs4vItIvqXwSQjY1YzPsNtqcy30XSQCJjeh9HHOrpnrV7fyTzZ3bF5GiSM7HjYwUw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "9a954645-70f8-4462-8405-7a172182144f",
+                            TwoFactorEnabled = false,
+                            UserName = "staff"
                         });
                 });
 
@@ -366,6 +422,11 @@ namespace Book_Haven.Migrations
                         {
                             UserId = 1L,
                             RoleId = 1L
+                        },
+                        new
+                        {
+                            UserId = 2L,
+                            RoleId = 2L
                         });
                 });
 
@@ -408,6 +469,25 @@ namespace Book_Haven.Migrations
                 });
 
             modelBuilder.Entity("Book_Haven.Entities.Order", b =>
+                {
+                    b.HasOne("Book_Haven.Entities.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Book_Haven.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Book_Haven.Entities.Review", b =>
                 {
                     b.HasOne("Book_Haven.Entities.Book", "Book")
                         .WithMany()

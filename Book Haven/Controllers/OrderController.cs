@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Book_Haven.Services;
 using Microsoft.Extensions.Logging;
 using System.Linq;
+using System.ComponentModel.DataAnnotations;
 
 namespace Book_Haven.Controllers
 {
@@ -145,7 +146,7 @@ namespace Book_Haven.Controllers
         }
 
         [HttpPost("approve")]
-        [Authorize(Roles = "Admin,SuperAdmin")]
+        [Authorize(Roles = "Staff")]
         public async Task<IActionResult> ApproveOrder([FromBody] ApproveOrderDto dto)
         {
             if (string.IsNullOrEmpty(dto.ClaimCode))
@@ -206,6 +207,49 @@ namespace Book_Haven.Controllers
             {
                 _logger.LogError(ex, "Failed to approve order for claim code: {ClaimCode}", dto.ClaimCode);
                 return StatusCode(500, "An error occurred while processing the order");
+            }
+        }
+
+        [HttpPost("update-claim-code")]
+        [Authorize(Roles = "Staff")]
+        public async Task<IActionResult> UpdateClaimCode([FromBody] UpdateClaimCodeDto dto)
+        {
+            if (!ModelState.IsValid)
+            {
+                _logger.LogWarning("Invalid input for UpdateClaimCode: {Errors}", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
+                return BadRequest(ModelState);
+            }
+
+            var order = await _context.Orders.FindAsync(dto.OrderId);
+            if (order == null)
+            {
+                _logger.LogWarning("Order not found for ID: {OrderId}", dto.OrderId);
+                return NotFound("Order not found");
+            }
+
+            // Ensure the new claim code is unique
+            var existingClaimCode = await _context.Orders
+                .AnyAsync(o => o.ClaimCode == dto.NewClaimCode && o.Id != dto.OrderId);
+            if (existingClaimCode)
+            {
+                _logger.LogWarning("Claim code {ClaimCode} already exists", dto.NewClaimCode);
+                return BadRequest("Claim code already exists");
+            }
+
+            var oldClaimCode = order.ClaimCode;
+            order.ClaimCode = dto.NewClaimCode;
+
+            try
+            {
+                _context.Orders.Update(order);
+                await _context.SaveChangesAsync();
+                _logger.LogInformation("Claim code updated for order {OrderId} from {OldClaimCode} to {NewClaimCode}", dto.OrderId, oldClaimCode, dto.NewClaimCode);
+                return Ok(new { message = "Claim code updated successfully" });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to update claim code for order {OrderId}", dto.OrderId);
+                return StatusCode(500, "An error occurred while updating the claim code.");
             }
         }
 
@@ -320,7 +364,8 @@ namespace Book_Haven.Controllers
                     o.Book.ImagePath,
                     o.ClaimCode,
                     o.DateAdded,
-                    o.IsPurchased
+                    o.IsPurchased,
+                    HasPurchased = _context.Orders.Any(ord => ord.UserId == userId && ord.BookId == o.BookId && ord.IsPurchased)
                 })
                 .ToListAsync();
 
@@ -328,34 +373,24 @@ namespace Book_Haven.Controllers
         }
 
         [HttpGet("all")]
-        [Authorize(Roles = "Admin,SuperAdmin")]
+        [Authorize(Roles = "Staff")]
         public async Task<IActionResult> GetAllOrders()
         {
             try
             {
-                // Log the authenticated user's claims to debug authorization, similar to AuthController
                 var userClaims = User.Claims.Select(c => new { c.Type, c.Value }).ToList();
                 _logger.LogInformation("User claims for GetAllOrders: {@Claims}", userClaims);
 
-                // Explicitly check for roles, similar to how AuthController logs roles
                 var roles = User.FindAll(ClaimTypes.Role).Select(r => r.Value).ToList();
                 _logger.LogInformation("Roles for user in GetAllOrders: {Roles}", string.Join(", ", roles));
-                if (!roles.Contains("Admin", StringComparer.OrdinalIgnoreCase) && !roles.Contains("SuperAdmin", StringComparer.OrdinalIgnoreCase))
-                {
-                    _logger.LogWarning("User does not have Admin or SuperAdmin role. Roles found: {@Roles}", roles);
-                    return StatusCode(403, new { message = "Admin or SuperAdmin role required to access this endpoint" });
-                }
 
-                // Log the start of the database query
                 _logger.LogInformation("Starting database query for orders");
 
-                // Check for referential integrity issues
                 var orderCount = await _context.Orders.CountAsync();
                 var userCount = await _context.Users.CountAsync();
                 var bookCount = await _context.Books.CountAsync();
                 _logger.LogInformation("Database stats: Orders={OrderCount}, Users={UserCount}, Books={BookCount}", orderCount, userCount, bookCount);
 
-                // Fetch orders with safe null handling
                 var orders = await _context.Orders
                     .Include(o => o.User)
                     .Include(o => o.Book)
@@ -390,18 +425,13 @@ namespace Book_Haven.Controllers
                     })
                     .ToListAsync();
 
-                // Log the number of orders retrieved
                 _logger.LogInformation("Retrieved {Count} orders for admin dashboard", orders.Count);
-
-                // Log the entire response for debugging
                 _logger.LogDebug("Orders response data: {@Orders}", orders);
 
-                // Always return a plain array, even if empty
                 return Ok(orders);
             }
             catch (Exception ex)
             {
-                // Log the full exception details
                 _logger.LogError("Failed to retrieve orders for admin dashboard. Exception: {ExceptionMessage}", ex.Message);
                 return StatusCode(500, new { message = "An error occurred while retrieving orders", details = ex.Message });
             }
@@ -416,5 +446,16 @@ namespace Book_Haven.Controllers
     public class ApproveOrderDto
     {
         public string ClaimCode { get; set; }
+    }
+
+    public class UpdateClaimCodeDto
+    {
+        [Required(ErrorMessage = "Order ID is required")]
+        [Range(1, long.MaxValue, ErrorMessage = "Order ID must be a positive number")]
+        public long OrderId { get; set; }
+
+        [Required(ErrorMessage = "New claim code is required")]
+        [MinLength(12, ErrorMessage = "Claim code must be at least 12 characters long")]
+        public string NewClaimCode { get; set; }
     }
 }
