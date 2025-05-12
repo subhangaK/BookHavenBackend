@@ -17,6 +17,8 @@ namespace Book_Haven
         public DbSet<Order> Orders { get; set; }
         public DbSet<Review> Reviews { get; set; }
 
+        public DbSet<Contact> Contacts { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
