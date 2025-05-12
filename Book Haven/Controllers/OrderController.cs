@@ -74,7 +74,6 @@ namespace Book_Haven.Controllers
                 return BadRequest(new { message = "Book not found in cart" });
             }
 
-            var orderCountBefore = await _context.Orders.CountAsync(o => o.UserId == userId);
             var claimCode = Guid.NewGuid().ToString("N").Substring(0, 12).ToUpper();
             _logger.LogInformation("Generated ClaimCode: {ClaimCode} for user {UserId}", claimCode, userId);
 
@@ -93,18 +92,34 @@ namespace Book_Haven.Controllers
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
-                decimal discountPercentage = 0m;
-                int orderPosition = orderCountBefore + 1;
-                if (orderPosition >= 6)
+                // Calculate discount based on successful purchases
+                var successfulPurchaseCountBefore = await _context.Orders
+                    .CountAsync(o => o.UserId == userId && o.IsPurchased);
+                decimal purchaseDiscountPercentage = 0m;
+                int purchasePosition = successfulPurchaseCountBefore + 1;
+                if (purchasePosition >= 5)
                 {
-                    int cycleIndex = (orderPosition - 6) / 5;
-                    int positionInCycle = (orderPosition - 6) % 5;
+                    int cycleIndex = (purchasePosition - 5) / 5;
+                    int positionInCycle = (purchasePosition - 5) % 5;
                     if (positionInCycle == 0)
                     {
-                        discountPercentage = (cycleIndex % 2 == 0) ? 0.05m : 0.10m;
+                        purchaseDiscountPercentage = (cycleIndex % 2 == 0) ? 0.05m : 0.10m;
                     }
                 }
-                orderItem.DiscountPercentage = discountPercentage;
+
+                // Calculate quantity-based discount for the same book
+                decimal quantityDiscountPercentage = 0m;
+                if (cartItem.Quantity >= 10)
+                {
+                    quantityDiscountPercentage = 0.10m; // 10% for 10 or more books
+                }
+                else if (cartItem.Quantity >= 5)
+                {
+                    quantityDiscountPercentage = 0.05m; // 5% for 5 or more books
+                }
+
+                // Combine discounts (they stack)
+                orderItem.DiscountPercentage = purchaseDiscountPercentage + quantityDiscountPercentage;
 
                 _context.Orders.Add(orderItem);
                 await _context.SaveChangesAsync();
@@ -118,7 +133,9 @@ namespace Book_Haven.Controllers
                 return StatusCode(500, new { message = "An error occurred while processing your order" });
             }
 
-            var orderCountAfter = await _context.Orders.CountAsync(o => o.UserId == userId);
+            var successfulPurchaseCountAfter = await _context.Orders
+                .CountAsync(o => o.UserId == userId && o.IsPurchased);
+            var totalOrderCount = await _context.Orders.CountAsync(o => o.UserId == userId);
             var currentOrderBookCount = await _context.Orders
                 .CountAsync(o => o.UserId == userId && o.DateAdded.Date == DateTime.UtcNow.Date);
 
@@ -151,7 +168,7 @@ namespace Book_Haven.Controllers
                     ? "Book added to order successfully. Confirmation email sent."
                     : "Book added to order successfully, but failed to send confirmation email.",
                 discountPercentage = orderItem.DiscountPercentage * 100,
-                totalOrders = orderCountAfter,
+                totalOrders = totalOrderCount,
                 currentOrderBookCount
             });
         }
@@ -194,7 +211,11 @@ namespace Book_Haven.Controllers
                     <p><strong>Author:</strong> {order.Book?.Author ?? "Unknown"}</p>
                     <p><strong>Price:</strong> ${order.Book?.Price:F2}</p>
                     <p><strong>Discount:</strong> {order.DiscountPercentage * 100:F0}%</p>
+<<<<<<< HEAD
+                    <p><strong>Final Price:</strong> ${(order.Book?.Price * order.Quantity * (1 - order.DiscountPercentage)):F2}</p>
+=======
                     <p><strong>Final Price:</strong> ${(order.Book?.Price * (1 - order.DiscountPercentage)):F2}</p>
+>>>>>>> d6361e462568b3e0b0834d6d08042c713c8bd869
                     <p><strong>Date Approved:</strong> {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss}</p>
                     <p>Your order has been successfully approved. Thank you for shopping with Book Haven!</p>";
 
@@ -372,27 +393,29 @@ namespace Book_Haven.Controllers
                 })
                 .ToListAsync();
 
-            var orderCount = await _context.Orders.CountAsync(o => o.UserId == userId);
+            var successfulPurchaseCount = await _context.Orders
+                .CountAsync(o => o.UserId == userId && o.IsPurchased);
+            var totalOrderCount = await _context.Orders.CountAsync(o => o.UserId == userId);
             var currentOrderBookCount = await _context.Orders
                 .CountAsync(o => o.UserId == userId && o.DateAdded.Date == DateTime.UtcNow.Date);
 
-            decimal discountPercentage = 0m;
-            int nextOrderPosition = orderCount + 1;
-            if (nextOrderPosition >= 6)
+            decimal purchaseDiscountPercentage = 0m;
+            int nextPurchasePosition = successfulPurchaseCount + 1;
+            if (nextPurchasePosition >= 5)
             {
-                int cycleIndex = (nextOrderPosition - 6) / 5;
-                int positionInCycle = (nextOrderPosition - 6) % 5;
+                int cycleIndex = (nextPurchasePosition - 5) / 5;
+                int positionInCycle = (nextPurchasePosition - 5) % 5;
                 if (positionInCycle == 0)
                 {
-                    discountPercentage = (cycleIndex % 2 == 0) ? 0.05m : 0.10m;
+                    purchaseDiscountPercentage = (cycleIndex % 2 == 0) ? 0.05m : 0.10m;
                 }
             }
 
             return Ok(new
             {
                 orders,
-                discountPercentage = discountPercentage * 100,
-                totalOrders = orderCount,
+                purchaseDiscountPercentage = purchaseDiscountPercentage * 100,
+                totalOrders = totalOrderCount,
                 currentOrderBookCount
             });
         }
@@ -456,7 +479,7 @@ namespace Book_Haven.Controllers
                         ClaimCode = o.ClaimCode ?? "N/A",
                         Customer = o.User != null ? (o.User.UserName ?? o.User.Email ?? "Unknown") : "Unknown",
                         Date = o.DateAdded.ToString("yyyy-MM-dd"),
-                        Total = o.Book != null ? Math.Round(o.Book.Price * (1 - o.DiscountPercentage), 2) : 0m,
+                        Total = o.Book != null ? Math.Round(o.Book.Price * (1 - o.DiscountPercentage) * o.Quantity, 2) : 0m,
                         Items = o.Book != null
                             ? new[]
                             {

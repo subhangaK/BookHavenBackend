@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Haven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250512084945_Dtabase")]
-    partial class Dtabase
+    [Migration("20250512133223_database")]
+    partial class database
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -295,15 +295,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "895c7743-fc09-4c73-a5b9-aab76ac34629",
+                            ConcurrencyStamp = "af21f387-2c04-4d6b-8ca6-fcbe8a09cd18",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEApmdCjAmQjywmaLEHoiPMLQwqHb+NZiSCeAm22Aq3Orcxeh1UC2IaJo74e6Pd1OPw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKbnxhC7BtEp1QTxq71cIDaM69LFMRwD1tU+/kcQ07kk93+lZqrAchBmZrSTXWM0RQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "5699f397-b81e-4bdb-acab-325495eef0fd",
+                            SecurityStamp = "9f213a19-921f-4abc-adb4-b09d5c1ceaba",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         },
@@ -311,15 +311,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 2L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "122a648c-e69a-4024-852e-eaa37d1f7fd7",
+                            ConcurrencyStamp = "df04c96f-cdcf-45ca-ad90-2c29c43db26d",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "STAFF@GMAIL.COM",
                             NormalizedUserName = "STAFF",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFfn2qWtLXQ1z3wzrl2z0wvOewq31XI/jEXZayFjIEsGHUgkIXzmbH+2qI9PSrmMXA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFKErOAF3ovndzPH4XHXmPX8iGo1gv/jQ/qLEwVI+Cnlc7qrAoOPf2x26Rg2GpFSvA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d2619247-ddc2-44fc-a9fc-163e97cf3d3d",
+                            SecurityStamp = "2bf537a6-75e3-4bb4-bf20-186add90aaf1",
                             TwoFactorEnabled = false,
                             UserName = "staff"
                         });
