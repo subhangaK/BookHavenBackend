@@ -313,8 +313,8 @@ namespace Book_Haven.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "ProfilePicture", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { 1L, 0, "7c57b76b-6f1c-4faa-a607-41f84b0110dc", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAED4pQ4vORC7Ub0v9p3888gpxbzvI/xlxX9nvLkepy4Jm86zQTYOgqIGSr+Tsw2kBKQ==", null, false, null, "073bbc1a-5d79-4f0d-9215-290972232fe4", false, "admin" },
-                    { 2L, 0, "bc39af4d-5218-47ee-bb8a-ace5689fda53", "staff@gmail.com", true, false, null, "STAFF@GMAIL.COM", "STAFF", "AQAAAAIAAYagAAAAEFGfFVOl3EMR14SKnmvjXzM1bORNjYEVGN0zrq7lCzBbARx5pIJdRyb/orSAJBA8uA==", null, false, null, "28a68ba0-c47f-4250-a40f-07dc820782cc", false, "staff" }
+                    { 1L, 0, "0989cfb8-63d6-40d6-b833-a54c5bd77794", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEGYQ4mXkjp1Q8RaNFlNbOM/ODvmqBCyWqy0QmU1+JWrup7c+PPApoXFYisIT9CWITQ==", null, false, null, "06dce9a8-df28-463a-9919-190d28425321", false, "admin" },
+                    { 2L, 0, "2715d594-c574-4120-a208-f9ef5170c0f8", "staff@gmail.com", true, false, null, "STAFF@GMAIL.COM", "STAFF", "AQAAAAIAAYagAAAAEJYRntEYF+Lp7BAdye34e5shxZRuqqPHHEbleUD/yXHQIkZx7HlPiDnaBFj+68pXDw==", null, false, null, "c770201f-08ea-4bbb-96ce-3be5e62949d2", false, "staff" }
                 });
 
             migrationBuilder.InsertData(
