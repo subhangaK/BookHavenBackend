@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Book_Haven.DTO
 {
@@ -28,5 +29,14 @@ namespace Book_Haven.DTO
         public string Category { get; set; } // Fiction or Nonfiction
 
         public IFormFile? Image { get; set; } // Nullable to ensure optional
+
+        public bool IsOnSale { get; set; }
+
+        [Range(0, 100, ErrorMessage = "Discount percentage must be between 0 and 100.")]
+        public decimal? DiscountPercentage { get; set; } // Add this field
+
+        public DateTime? SaleStartDate { get; set; }
+
+        public DateTime? SaleEndDate { get; set; }
     }
 }
