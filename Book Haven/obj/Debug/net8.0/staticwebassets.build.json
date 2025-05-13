@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CEyWn9HjHCMHYrfsTp7rVMCHL4YrNaxBgJ4SZ7t7CG4=",
+  "Hash": "XaF8X8oWm14p4PQxl+kDK/VNz9YX1B6ogN7ClePPhtg=",
   "Source": "Book Haven",
   "BasePath": "_content/Book Haven",
   "Mode": "Default",
@@ -2791,6 +2791,25 @@
       "OriginalItemSpec": "wwwroot\\images\\a71476aa-e086-402a-9df2-f21b3a1c6554.jpg"
     },
     {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a7e951af-7651-487b-8edb-0ecb3300a2fb.jpg",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "images/a7e951af-7651-487b-8edb-0ecb3300a2fb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a7e951af-7651-487b-8edb-0ecb3300a2fb.jpg"
+    },
+    {
       "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\a8396477-488b-45b9-a0c5-6f85e44e6b36.jpg",
       "SourceId": "Book Haven",
       "SourceType": "Discovered",
@@ -3929,6 +3948,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profile-pictures\\2_03f73546-331f-4e7a-870e-d75d2f781d60.png"
+    },
+    {
+      "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\profile-pictures\\3_38d45ac0-71cf-4984-a292-c9796deb2f8b.png",
+      "SourceId": "Book Haven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\",
+      "BasePath": "_content/Book Haven",
+      "RelativePath": "profile-pictures/3_38d45ac0-71cf-4984-a292-c9796deb2f8b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile-pictures\\3_38d45ac0-71cf-4984-a292-c9796deb2f8b.png"
     },
     {
       "Identity": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\profile-pictures\\default-profile.jpg",
