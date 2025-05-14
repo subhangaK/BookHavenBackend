@@ -53,7 +53,11 @@ namespace Book_Haven.Controllers
                 .AnyAsync(o => o.UserId == userId && o.BookId == dto.BookId && o.IsPurchased);
             if (!hasPurchased)
             {
-                _logger.LogWarning("User {UserId} has not purchased book {BookId}", userId, dto.BookId);
+                var orderExists = await _context.Orders
+                    .AnyAsync(o => o.UserId == userId && o.BookId == dto.BookId);
+                _logger.LogWarning(
+                    "User {UserId} cannot review book {BookId}. HasPurchased: {HasPurchased}, OrderExists: {OrderExists}",
+                    userId, dto.BookId, hasPurchased, orderExists);
                 return BadRequest("You can only review books you have purchased.");
             }
 
@@ -90,7 +94,7 @@ namespace Book_Haven.Controllers
         }
 
         [HttpGet("{bookId}")]
-        [AllowAnonymous] // Allow unauthenticated users to view reviews
+        [AllowAnonymous]
         public async Task<IActionResult> GetReviewsForBook(long bookId)
         {
             if (bookId <= 0)
@@ -120,6 +124,42 @@ namespace Book_Haven.Controllers
                 reviews,
                 reviewCount,
                 averageRating = Math.Round(averageRating, 1)
+            });
+        }
+
+        [HttpGet("can-review/{bookId}")]
+        public async Task<IActionResult> CanReview(long bookId)
+        {
+            if (bookId <= 0)
+            {
+                _logger.LogWarning("Invalid book ID: {BookId}", bookId);
+                return BadRequest("Invalid book ID");
+            }
+
+            var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userIdString) || !long.TryParse(userIdString, out var userId))
+            {
+                _logger.LogWarning("Unauthorized: Invalid or missing user ID for CanReview");
+                return Unauthorized("User not authenticated or invalid token.");
+            }
+
+            var book = await _context.Books.FindAsync(bookId);
+            if (book == null)
+            {
+                _logger.LogWarning("Book not found for ID: {BookId}", bookId);
+                return NotFound("Book not found");
+            }
+
+            var hasPurchased = await _context.Orders
+                .AnyAsync(o => o.UserId == userId && o.BookId == bookId && o.IsPurchased);
+            var hasReviewed = await _context.Reviews
+                .AnyAsync(r => r.UserId == userId && r.BookId == bookId);
+
+            return Ok(new
+            {
+                canReview = hasPurchased && !hasReviewed,
+                hasPurchased,
+                hasReviewed
             });
         }
     }

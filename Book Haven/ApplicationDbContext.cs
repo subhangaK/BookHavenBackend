@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Book_Haven.Entities;
+using System.Reflection;
 
 namespace Book_Haven
 {
@@ -16,6 +17,9 @@ namespace Book_Haven
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Banner> Banners { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -51,10 +55,7 @@ namespace Book_Haven
                 .HasForeignKey(c => c.BookId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.Entity<Cart>()
-                .HasIndex(c => new { c.UserId, c.BookId })
-                .IsUnique();
-
+           
             // Configure Order relationships
             builder.Entity<Order>()
                 .HasOne(o => o.User)
@@ -68,9 +69,7 @@ namespace Book_Haven
                 .HasForeignKey(o => o.BookId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.Entity<Order>()
-                .HasIndex(o => new { o.UserId, o.BookId })
-                .IsUnique();
+       
 
             builder.Entity<Roles>().HasData(
                 new Roles
@@ -79,12 +78,12 @@ namespace Book_Haven
                     Name = "SuperAdmin",
                     NormalizedName = "SUPERADMIN"
                 },
-                 new Roles
-                 {
-                     Id = 2,
-                     Name = "Staff",
-                     NormalizedName = "STAFF"
-                 }
+                new Roles
+                {
+                    Id = 2,
+                    Name = "Staff",
+                    NormalizedName = "STAFF"
+                }
             );
 
             var superAdmin = new User

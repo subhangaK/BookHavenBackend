@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Identity;
 using Book_Haven.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace Book_Haven.Controllers
 {
@@ -77,6 +80,27 @@ namespace Book_Haven.Controllers
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> AddBook([FromForm] BookDto bookDto)
         {
+            // Validate sale-related fields
+            if (bookDto.IsOnSale)
+            {
+                if (!bookDto.DiscountPercentage.HasValue || bookDto.DiscountPercentage <= 0 || bookDto.DiscountPercentage > 100)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Discount percentage must be between 1 and 100." } } });
+                }
+                if (!bookDto.SaleStartDate.HasValue)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Sale start date is required when on sale." } } });
+                }
+                if (!bookDto.SaleEndDate.HasValue)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Sale end date is required when on sale." } } });
+                }
+                if (bookDto.SaleEndDate <= bookDto.SaleStartDate)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Sale end date must be after start date." } } });
+                }
+            }
+
             var book = new Book
             {
                 Title = bookDto.Title,
@@ -85,7 +109,11 @@ namespace Book_Haven.Controllers
                 Price = bookDto.Price,
                 PublicationYear = bookDto.PublicationYear,
                 Description = bookDto.Description,
-                Category = bookDto.Category
+                Category = bookDto.Category,
+                IsOnSale = bookDto.IsOnSale,
+                DiscountPercentage = bookDto.IsOnSale ? bookDto.DiscountPercentage ?? 0 : 0,
+                SaleStartDate = bookDto.IsOnSale ? bookDto.SaleStartDate : null,
+                SaleEndDate = bookDto.IsOnSale ? bookDto.SaleEndDate : null
             };
 
             if (bookDto.Image != null && bookDto.Image.Length > 0)
@@ -124,6 +152,27 @@ namespace Book_Haven.Controllers
                 return NotFound();
             }
 
+            // Validate sale-related fields
+            if (bookDto.IsOnSale)
+            {
+                if (!bookDto.DiscountPercentage.HasValue || bookDto.DiscountPercentage <= 0 || bookDto.DiscountPercentage > 100)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Discount percentage must be between 1 and 100." } } });
+                }
+                if (!bookDto.SaleStartDate.HasValue)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Sale start date is required when on sale." } } });
+                }
+                if (!bookDto.SaleEndDate.HasValue)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Sale end date is required when on sale." } } });
+                }
+                if (bookDto.SaleEndDate <= bookDto.SaleStartDate)
+                {
+                    return BadRequest(new { errors = new[] { new { description = "Sale end date must be after start date." } } });
+                }
+            }
+
             book.Title = bookDto.Title;
             book.Author = bookDto.Author;
             book.ISBN = bookDto.ISBN;
@@ -131,6 +180,10 @@ namespace Book_Haven.Controllers
             book.PublicationYear = bookDto.PublicationYear;
             book.Description = bookDto.Description;
             book.Category = bookDto.Category;
+            book.IsOnSale = bookDto.IsOnSale;
+            book.DiscountPercentage = bookDto.IsOnSale ? bookDto.DiscountPercentage ?? 0 : 0;
+            book.SaleStartDate = bookDto.IsOnSale ? bookDto.SaleStartDate : null;
+            book.SaleEndDate = bookDto.IsOnSale ? bookDto.SaleEndDate : null;
 
             if (bookDto.Image != null && bookDto.Image.Length > 0)
             {
@@ -200,6 +253,17 @@ namespace Book_Haven.Controllers
             {
                 return NotFound();
             }
+
+            // Check if sale has expired
+            if (book.IsOnSale && book.SaleEndDate < DateTime.UtcNow)
+            {
+                book.IsOnSale = false;
+                book.DiscountPercentage = 0;
+                book.SaleStartDate = null;
+                book.SaleEndDate = null;
+                await _context.SaveChangesAsync();
+            }
+
             return Ok(book);
         }
 
@@ -207,7 +271,28 @@ namespace Book_Haven.Controllers
         public async Task<IActionResult> GetAllBooks()
         {
             var books = await _context.Books.ToListAsync();
+
+            // Update expired sales
+            foreach (var book in books)
+            {
+                if (book.IsOnSale && book.SaleEndDate < DateTime.UtcNow)
+                {
+                    book.IsOnSale = false;
+                    book.DiscountPercentage = 0;
+                    book.SaleStartDate = null;
+                    book.SaleEndDate = null;
+                }
+            }
+            await _context.SaveChangesAsync();
+
             return Ok(books);
+        }
+
+        [HttpGet("contacts")]
+        public async Task<IActionResult> GetAllContacts()
+        {
+            var contacts = await _context.Contacts.ToListAsync();
+            return Ok(contacts);
         }
     }
 }

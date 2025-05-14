@@ -22,6 +22,41 @@ namespace Book_Haven.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Book_Haven.Entities.Banner", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("EndTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Banners");
+                });
+
             modelBuilder.Entity("Book_Haven.Entities.Book", b =>
                 {
                     b.Property<long>("Id")
@@ -42,6 +77,9 @@ namespace Book_Haven.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<decimal>("DiscountPercentage")
+                        .HasColumnType("numeric");
+
                     b.Property<string>("ISBN")
                         .IsRequired()
                         .HasColumnType("text");
@@ -50,11 +88,20 @@ namespace Book_Haven.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<bool>("IsOnSale")
+                        .HasColumnType("boolean");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
 
                     b.Property<int>("PublicationYear")
                         .HasColumnType("integer");
+
+                    b.Property<DateTime?>("SaleEndDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("SaleStartDate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -92,10 +139,73 @@ namespace Book_Haven.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.HasIndex("UserId", "BookId")
-                        .IsUnique();
+                    b.HasIndex("UserId");
 
                     b.ToTable("Carts");
+                });
+
+            modelBuilder.Entity("Book_Haven.Entities.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("SubmittedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("Book_Haven.Entities.Notification", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("RecipientId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Notifications");
                 });
 
             modelBuilder.Entity("Book_Haven.Entities.Order", b =>
@@ -135,8 +245,7 @@ namespace Book_Haven.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.HasIndex("UserId", "BookId")
-                        .IsUnique();
+                    b.HasIndex("UserId");
 
                     b.ToTable("Orders");
                 });
@@ -292,15 +401,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 1L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "af21f387-2c04-4d6b-8ca6-fcbe8a09cd18",
+                            ConcurrencyStamp = "959d7a3e-35bd-4981-8daa-2e31ae8315b4",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKbnxhC7BtEp1QTxq71cIDaM69LFMRwD1tU+/kcQ07kk93+lZqrAchBmZrSTXWM0RQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMSexm14dsGGka/Po2i0kYdV0mwTRS0QEiTYfszviS1GRaS5mVbb12N84pHpQgabxw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9f213a19-921f-4abc-adb4-b09d5c1ceaba",
+                            SecurityStamp = "38e4a5e2-4d2e-4e35-9f5c-ba77ceabd2fb",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         },
@@ -308,15 +417,15 @@ namespace Book_Haven.Migrations
                         {
                             Id = 2L,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "df04c96f-cdcf-45ca-ad90-2c29c43db26d",
+                            ConcurrencyStamp = "25cca101-a44d-4d3c-a251-8ef571e6bce8",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "STAFF@GMAIL.COM",
                             NormalizedUserName = "STAFF",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFKErOAF3ovndzPH4XHXmPX8iGo1gv/jQ/qLEwVI+Cnlc7qrAoOPf2x26Rg2GpFSvA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEB916hfPA7lpLGsUfSAKoDj7UosKiDoKoz2it47ViyZCirKr4ZGPyPQsSq6iBTLxhA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2bf537a6-75e3-4bb4-bf20-186add90aaf1",
+                            SecurityStamp = "f7ff1ce1-5659-4ddc-9a99-1d83226e2b5c",
                             TwoFactorEnabled = false,
                             UserName = "staff"
                         });
@@ -479,6 +588,17 @@ namespace Book_Haven.Migrations
                         .IsRequired();
 
                     b.Navigation("Book");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Book_Haven.Entities.Notification", b =>
+                {
+                    b.HasOne("Book_Haven.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });

@@ -151,7 +151,9 @@ namespace Book_Haven.Controllers
                     c.Book.Author,
                     c.Book.Price,
                     c.Book.ImagePath,
-                    c.Quantity
+                    c.Quantity,
+                    c.Book.IsOnSale, // Added
+                    DiscountPercentage = c.Book.DiscountPercentage // Added
                 })
                 .ToListAsync();
 
