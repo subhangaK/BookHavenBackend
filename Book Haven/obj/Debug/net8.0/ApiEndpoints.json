@@ -525,13 +525,13 @@
   {
     "ContainingType": "Book_Haven.Controllers.OrderController",
     "Method": "CancelOrder",
-    "RelativePath": "api/Order/cancel/{bookId}",
+    "RelativePath": "api/Order/cancel/{orderId}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "bookId",
+        "Name": "orderId",
         "Type": "System.Int64",
         "IsRequired": true
       }
@@ -541,13 +541,13 @@
   {
     "ContainingType": "Book_Haven.Controllers.OrderController",
     "Method": "RemoveFromOrder",
-    "RelativePath": "api/Order/remove/{bookId}",
+    "RelativePath": "api/Order/remove/{orderId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "bookId",
+        "Name": "orderId",
         "Type": "System.Int64",
         "IsRequired": true
       }
@@ -565,6 +565,22 @@
       {
         "Name": "dto",
         "Type": "Book_Haven.Controllers.UpdateClaimCodeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.OrderController",
+    "Method": "GetUserOrders",
+    "RelativePath": "api/Order/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
         "IsRequired": true
       }
     ],
@@ -600,6 +616,22 @@
     "ContainingType": "Book_Haven.Controllers.ReviewController",
     "Method": "GetReviewsForBook",
     "RelativePath": "api/Review/{bookId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Haven.Controllers.ReviewController",
+    "Method": "CanReview",
+    "RelativePath": "api/Review/can-review/{bookId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

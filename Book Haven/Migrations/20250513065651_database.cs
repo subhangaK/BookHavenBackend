@@ -5,7 +5,7 @@
 namespace Book_Haven.Migrations
 {
     /// <inheritdoc />
-    public partial class cart : Migration
+    public partial class database : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,14 +19,14 @@ namespace Book_Haven.Migrations
                 keyColumn: "Id",
                 keyValue: 1L,
                 columns: new[] { "ConcurrencyStamp", "PasswordHash", "SecurityStamp" },
-                values: new object[] { "135892df-3dab-4338-ac47-ffb6926f4616", "AQAAAAIAAYagAAAAECX8VsAGcJi+aCzF5RWwO9e0rRZU0i9SMDgsaZp4k7lR81xfevqetdBuDb6dWYE4mg==", "dd745716-7b52-48a0-83a3-d774f840b62d" });
+                values: new object[] { "959d7a3e-35bd-4981-8daa-2e31ae8315b4", "AQAAAAIAAYagAAAAEMSexm14dsGGka/Po2i0kYdV0mwTRS0QEiTYfszviS1GRaS5mVbb12N84pHpQgabxw==", "38e4a5e2-4d2e-4e35-9f5c-ba77ceabd2fb" });
 
             migrationBuilder.UpdateData(
                 table: "AspNetUsers",
                 keyColumn: "Id",
                 keyValue: 2L,
                 columns: new[] { "ConcurrencyStamp", "PasswordHash", "SecurityStamp" },
-                values: new object[] { "27c8d343-7897-44df-b40a-f75a17c6492e", "AQAAAAIAAYagAAAAEFFDe16UB+qXWXmieXzbXnWnEloUCBCqlQxx85Aub9Go3qE+rBgMETfsCIkx5/M3zg==", "73164f55-894b-43e0-83d5-a479c898b12c" });
+                values: new object[] { "25cca101-a44d-4d3c-a251-8ef571e6bce8", "AQAAAAIAAYagAAAAEB916hfPA7lpLGsUfSAKoDj7UosKiDoKoz2it47ViyZCirKr4ZGPyPQsSq6iBTLxhA==", "f7ff1ce1-5659-4ddc-9a99-1d83226e2b5c" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Carts_UserId",

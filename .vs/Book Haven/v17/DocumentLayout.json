@@ -1,229 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AppDev-2\\BookHavenBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513040211_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250513040211_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\migrations\\20250513032442_book haven.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\migrations\\20250513032442_book haven.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513032442_Book Haven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250513032442_Book Haven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\bannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\bannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\dto\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\addcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\discountcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\services\\discountcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\discountcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250513065458_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250513065458_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\idiscountcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\idiscountcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133128_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075138_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075044_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510062751_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509055251_Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133128_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250512133128_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509054819_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075138_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250512075138_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075044_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250512075044_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510062751_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250510062751_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509055251_Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250509055251_Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509054819_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250509054819_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\book haven.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\book haven.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\book haven.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|d:\\appdev-2\\bookhavenbackend\\book haven\\book haven.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\book haven.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\book haven.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250506100148_BookHaven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250506100148_BookHaven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250506100148_BookHaven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510071231_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510071231_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250510071231_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133223_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\Migrations\\20250512133223_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\Wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Haven\\DTO\\Wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|c:\\users\\omen\\documents\\islington\\book haven\\book haven backend\\bookhavenbackend\\book haven\\migrations\\20250513065651_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB1EF1-ACFD-4F4E-8693-D2119E755C86}|Book Haven\\Book Haven.csproj|solutionrelative:book haven\\migrations\\20250513065651_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -237,7 +177,19 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -245,60 +197,30 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250513032442_Book Haven.Designer.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513032442_Book Haven.Designer.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250513032442_Book Haven.Designer.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513032442_Book Haven.Designer.cs",
-              "RelativeToolTip": "Book Haven\\Migrations\\20250513032442_Book Haven.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Book Haven\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:57:45.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Book Haven\\Controllers\\CartController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAlwC4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:06:38.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250513032442_Book Haven.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513032442_Book Haven.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250513032442_Book Haven.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513032442_Book Haven.cs",
-              "RelativeToolTip": "Book Haven\\Migrations\\20250513032442_Book Haven.cs",
-              "ViewState": "AgIAAJgBAAAAAAAAAAAAALUBAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:24:43.119Z",
+              "WhenOpened": "2025-05-10T07:00:09.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Book Haven\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Book Haven\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAJoBAAAAAAAAAAAAACYCAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACsCAAAAAAAAAAAcwHECAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T06:50:44.039Z",
               "EditorCaption": ""
@@ -306,36 +228,122 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250513040211_cart.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513040211_cart.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250513040211_cart.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\20250513040211_cart.cs",
-              "RelativeToolTip": "Book Haven\\Migrations\\20250513040211_cart.cs",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Book Haven\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:44:40.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250512133128_database.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133128_database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250512133128_database.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133128_database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250512133128_database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T04:02:11.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:31:28.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Book Haven\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAAAI0AAAApAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "20250513065651_database.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250513065651_database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250513065651_database.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250513065651_database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250513065651_database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:58:13.258Z",
+              "WhenOpened": "2025-05-13T06:56:51.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Book Haven\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAAACkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:31:42.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Book Haven\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAADwv60AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:06:38.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\BookDto.cs",
+              "RelativeDocumentMoniker": "Book Haven\\DTO\\BookDto.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\BookDto.cs",
+              "RelativeToolTip": "Book Haven\\DTO\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:43:21.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250512075044_updated.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075044_updated.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250512075044_updated.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075044_updated.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250512075044_updated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:50:44.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\AddCartDTO.cs",
+              "RelativeDocumentMoniker": "Book Haven\\DTO\\AddCartDTO.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\AddCartDTO.cs",
+              "RelativeToolTip": "Book Haven\\DTO\\AddCartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T02:54:41.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\appsettings.json",
+              "RelativeDocumentMoniker": "Book Haven\\appsettings.json",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\appsettings.json",
+              "RelativeToolTip": "Book Haven\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T07:08:57.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CartDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\CartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\CartDTO.cs",
               "RelativeDocumentMoniker": "Book Haven\\DTO\\CartDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\CartDTO.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\CartDTO.cs",
               "RelativeToolTip": "Book Haven\\DTO\\CartDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,572 +352,287 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Wishlist.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Wishlist.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Wishlist.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Wishlist.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Wishlist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:11:21.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Book Haven\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAqwLEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T05:44:40.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Book Haven\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Book Haven\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAhwCoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:15:15.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Program.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Program.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Program.cs",
-              "RelativeToolTip": "Book Haven\\Program.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "20250513065458_database.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250513065458_database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250513065458_database.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250513065458_database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250513065458_database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:47:55.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:54:58.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Banner.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Banner.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Banner.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Banner.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Banner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DiscountCleanupService.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Services\\DiscountCleanupService.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Services\\DiscountCleanupService.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Services\\DiscountCleanupService.cs",
+              "RelativeToolTip": "Book Haven\\Services\\DiscountCleanupService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:14:40.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:55:25.825Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "BannerDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\BannerDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\BannerDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\BannerDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\BannerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:15:40.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WishlistController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\WishlistController.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Controllers\\WishlistController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\WishlistController.cs",
-              "RelativeToolTip": "Book Haven\\Controllers\\WishlistController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAuwG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:10:44.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Controllers\\ReviewController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "Book Haven\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwIQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:00:09.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Controllers\\ContactController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "Book Haven\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:08:07.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BannerController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\BannerController.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Controllers\\BannerController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\BannerController.cs",
-              "RelativeToolTip": "Book Haven\\Controllers\\BannerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:15:21.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Book Haven\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:31:42.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AddCartDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\AddCartDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\AddCartDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\AddCartDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\AddCartDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:15:35.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AddOrderDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\AddOrderDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\AddOrderDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\AddOrderDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\AddOrderDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:15:39.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BookDto.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\BookDto.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\BookDto.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\BookDto.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\BookDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:43:21.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ContactDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\ContactDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\ContactDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\ContactDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\ContactDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:08:25.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\LoginDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:26:01.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "NotificationDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\NotificationDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\NotificationDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\NotificationDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\NotificationDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T02:56:10.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Book Haven\\DTO\\RegisterDTO.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\DTO\\RegisterDTO.cs",
-              "RelativeToolTip": "Book Haven\\DTO\\RegisterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:08:24.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Book.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Book.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Book.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:42:33.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Cart.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Cart.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:09:08.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Contact.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Contact.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Contact.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:07:49.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Notification.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Notification.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Notification.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T02:57:10.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Order.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Order.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:09:20.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Review.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Review.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Review.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Review.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:56:58.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Roles.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\Roles.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\Roles.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:26:09.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Entities\\User.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Entities\\User.cs",
-              "RelativeToolTip": "Book Haven\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:26:04.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "NotificationHub.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Hubs\\NotificationHub.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Hubs\\NotificationHub.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Hubs\\NotificationHub.cs",
-              "RelativeToolTip": "Book Haven\\Hubs\\NotificationHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T02:57:53.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ContactService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\ContactService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\ContactService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\ContactService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\ContactService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:07:24.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "DiscountCleanupService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\DiscountCleanupService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\DiscountCleanupService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\DiscountCleanupService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\DiscountCleanupService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T02:58:40.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\EmailService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\EmailService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:18:48.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IDiscountCleanupService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\IDiscountCleanupService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\IDiscountCleanupService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\IDiscountCleanupService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\IDiscountCleanupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T02:59:01.56Z",
-              "EditorCaption": ""
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAKIBAAAAAAAAAAAowNoBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-10T06:24:17.83Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\IEmailService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\IEmailService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\IEmailService.cs",
+              "Title": "20250512133223_database.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133223_database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250512133223_database.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133223_database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250512133223_database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:17:55.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:48:27.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "INotificationService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\INotificationService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\INotificationService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\INotificationService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\INotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Book Haven\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "Book Haven\\DTO\\RegisterDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:06:27.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:08:24.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\ITokenService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\ITokenService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Roles.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Entities\\Roles.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Roles.cs",
+              "RelativeToolTip": "Book Haven\\Entities\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:45:44.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T08:26:09.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\NotificationService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\NotificationService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\NotificationService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\NotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Book Haven\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Book Haven\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:06:22.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T08:15:15.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Book Haven\\Services\\TokenService.cs",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Services\\TokenService.cs",
-              "RelativeToolTip": "Book Haven\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:31:21.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\appsettings.json",
-              "RelativeDocumentMoniker": "Book Haven\\appsettings.json",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\appsettings.json",
-              "RelativeToolTip": "Book Haven\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-05T07:08:57.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "20250512133128_database.cs",
-              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133128_database.cs",
-              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512133128_database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:31:28.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "20250512075044_updated.cs",
-              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075044_updated.cs",
-              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075044_updated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T07:50:44.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 15,
               "Title": "20250512075138_updated.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075138_updated.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250512075138_updated.cs",
               "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250512075138_updated.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250512075138_updated.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T07:51:38.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Program.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Program.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Program.cs",
+              "RelativeToolTip": "Book Haven\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwFMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:47:55.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\User.cs",
+              "RelativeToolTip": "Book Haven\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:26:04.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Book Haven\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Book Haven\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:26:01.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Review.cs",
+              "RelativeToolTip": "Book Haven\\Entities\\Review.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA5wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:56:58.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Order.cs",
+              "RelativeToolTip": "Book Haven\\Entities\\Order.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:09:20.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "20250510071231_database.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510071231_database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250510071231_database.cs",
               "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510071231_database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250510071231_database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T07:47:47.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 23,
               "Title": "20250510062751_database.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510062751_database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250510062751_database.cs",
               "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250510062751_database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250510062751_database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T06:27:51.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAMwBAAAAAAAAAAAowNoBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-10T06:24:17.83Z"
+              "DocumentIndex": 28,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Services\\TokenService.cs",
+              "RelativeToolTip": "Book Haven\\Services\\TokenService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:31:21.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 24,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Book Haven\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:45:44.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Cart.cs",
+              "RelativeToolTip": "Book Haven\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:09:08.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "20250509055251_Database.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509055251_Database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250509055251_Database.cs",
               "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509055251_Database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250509055251_Database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T05:52:52.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 27,
               "Title": "20250509054819_database.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509054819_database.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250509054819_database.cs",
               "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250509054819_database.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250509054819_database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T05:48:19.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 39,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\Wishlist.cs",
+              "RelativeDocumentMoniker": "Book Haven\\DTO\\Wishlist.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\DTO\\Wishlist.cs",
+              "RelativeToolTip": "Book Haven\\DTO\\Wishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:48:27.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Entities\\Book.cs",
+              "RelativeToolTip": "Book Haven\\Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:42:33.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "Book Haven\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:10:44.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Book Haven\\appsettings.Development.json",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\appsettings.Development.json",
               "RelativeToolTip": "Book Haven\\appsettings.Development.json",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -917,21 +640,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 36,
               "Title": "20250506100148_BookHaven.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250506100148_BookHaven.cs",
+              "RelativeDocumentMoniker": "Book Haven\\Migrations\\20250506100148_BookHaven.cs",
               "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Migrations\\20250506100148_BookHaven.cs",
+              "RelativeToolTip": "Book Haven\\Migrations\\20250506100148_BookHaven.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T05:42:11.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 35,
               "Title": "Book Haven.csproj",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
               "RelativeDocumentMoniker": "Book Haven\\Book Haven.csproj",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.csproj",
               "RelativeToolTip": "Book Haven\\Book Haven.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -939,11 +664,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 32,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Book Haven\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Properties\\launchSettings.json",
               "RelativeToolTip": "Book Haven\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -951,22 +676,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 33,
               "Title": "5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
               "RelativeDocumentMoniker": "Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
               "RelativeToolTip": "Book Haven\\wwwroot\\images\\5926f80c-7081-4683-80c7-0c88d10694ca.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2025-05-05T17:29:54.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 34,
               "Title": "Book Haven.http",
-              "DocumentMoniker": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Book Haven.http",
+              "DocumentMoniker": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.http",
               "RelativeDocumentMoniker": "Book Haven\\Book Haven.http",
-              "ToolTip": "D:\\AppDev-2\\BookHavenBackend\\Book Haven\\Book Haven.http",
+              "ToolTip": "C:\\Users\\OMEN\\Documents\\islington\\Book Haven\\Book Haven Backend\\BookHavenBackend\\Book Haven\\Book Haven.http",
               "RelativeToolTip": "Book Haven\\Book Haven.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
